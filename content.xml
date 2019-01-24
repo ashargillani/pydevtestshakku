@@ -1,0 +1,1938 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?metadataRepository version='1.1.0'?>
+<repository name='Pydev p2 Repository' type='org.eclipse.equinox.internal.p2.metadata.repository.LocalMetadataRepository' version='1'>
+  <properties size='2'>
+    <property name='p2.timestamp' value='1541721634359'/>
+    <property name='p2.compressed' value='true'/>
+  </properties>
+  <units size='40'>
+    <unit id='org.python.pydev.shared_ui.source' version='7.0.3.201811082356' singleton='false'>
+      <update id='org.python.pydev.shared_ui.source' range='[0.0.0,7.0.3.201811082356)' severity='0'/>
+      <properties size='9'>
+        <property name='df_LT.bundleVendor' value='Brainwy Software Ltda'/>
+        <property name='df_LT.bundleName' value='Shared Ui Plug-in Source'/>
+        <property name='org.eclipse.equinox.p2.name' value='%bundleName'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%bundleVendor'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='OSGI-INF/l10n/bundle-src'/>
+        <property name='maven-groupId' value='org.python.pydev'/>
+        <property name='maven-artifactId' value='org.python.pydev.shared_ui'/>
+        <property name='maven-version' value='7.0.3-SNAPSHOT'/>
+        <property name='maven-classifier' value='sources'/>
+      </properties>
+      <provides size='4'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.python.pydev.shared_ui.source' version='7.0.3.201811082356'/>
+        <provided namespace='osgi.bundle' name='org.python.pydev.shared_ui.source' version='7.0.3.201811082356'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='source' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.python.pydev.shared_ui.source' version='7.0.3.201811082356'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.python.pydev.shared_ui.source&#xA;Bundle-Version: 7.0.3.201811082356
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.python.pydev.django.source' version='7.0.3.201811082356' singleton='false'>
+      <update id='org.python.pydev.django.source' range='[0.0.0,7.0.3.201811082356)' severity='0'/>
+      <properties size='9'>
+        <property name='df_LT.bundleVendor' value='Brainwy Software Ltda'/>
+        <property name='df_LT.bundleName' value='Pydev Django Source'/>
+        <property name='org.eclipse.equinox.p2.name' value='%bundleName'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%bundleVendor'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='OSGI-INF/l10n/bundle-src'/>
+        <property name='maven-groupId' value='org.python.pydev'/>
+        <property name='maven-artifactId' value='org.python.pydev.django'/>
+        <property name='maven-version' value='7.0.3-SNAPSHOT'/>
+        <property name='maven-classifier' value='sources'/>
+      </properties>
+      <provides size='4'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.python.pydev.django.source' version='7.0.3.201811082356'/>
+        <provided namespace='osgi.bundle' name='org.python.pydev.django.source' version='7.0.3.201811082356'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='source' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.python.pydev.django.source' version='7.0.3.201811082356'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.python.pydev.django.source&#xA;Bundle-Version: 7.0.3.201811082356
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.python.pydev.shared_ui' version='7.0.3.201811082356'>
+      <update id='org.python.pydev.shared_ui' range='[0.0.0,7.0.3.201811082356)' severity='0'/>
+      <properties size='5'>
+        <property name='org.eclipse.equinox.p2.name' value='Shared Ui Plug-in'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Brainwy Software Ltda'/>
+        <property name='maven-groupId' value='org.python.pydev'/>
+        <property name='maven-artifactId' value='org.python.pydev.shared_ui'/>
+        <property name='maven-version' value='7.0.3-SNAPSHOT'/>
+      </properties>
+      <provides size='28'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.python.pydev.shared_ui' version='7.0.3.201811082356'/>
+        <provided namespace='osgi.bundle' name='org.python.pydev.shared_ui' version='7.0.3.201811082356'/>
+        <provided namespace='java.package' name='org.python.pydev.overview_ruler' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.shared_ui' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.shared_ui.actions' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.shared_ui.bindings' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.shared_ui.bundle' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.shared_ui.content_assist' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.shared_ui.debug' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.shared_ui.dialogs' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.shared_ui.editor' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.shared_ui.editor_input' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.shared_ui.field_editors' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.shared_ui.log' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.shared_ui.mark_occurrences' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.shared_ui.outline' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.shared_ui.proposals' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.shared_ui.quick_outline' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.shared_ui.search' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.shared_ui.search.replace' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.shared_ui.swt' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.shared_ui.templates' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.shared_ui.tooltips' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.shared_ui.tooltips.presenter' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.shared_ui.tree' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.shared_ui.utils' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.shared_ui.word_boundaries' version='0.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='19'>
+        <required namespace='osgi.bundle' name='org.python.pydev.shared_core' range='[7.0.3,7.0.4)'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui.workbench.texteditor' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.jface.text' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui.editors' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.resources' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui.ide' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui.views' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui.console' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.e4.ui.services' range='0.0.0' optional='true' greedy='false'/>
+        <required namespace='osgi.bundle' name='org.eclipse.e4.ui.css.swt.theme' range='0.0.0' optional='true' greedy='false'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.filesystem' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.search' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ltk.core.refactoring' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ltk.ui.refactoring' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui.forms' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.junit' range='4.0.0' optional='true' greedy='false'/>
+        <required namespace='osgi.bundle' name='org.python.pydev.core' range='0.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.python.pydev.shared_ui' version='7.0.3.201811082356'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='2'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.python.pydev.shared_ui;singleton:=true&#xA;Bundle-Version: 7.0.3.201811082356
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.python.pydev.parser.source' version='7.0.3.201811082356' singleton='false'>
+      <update id='org.python.pydev.parser.source' range='[0.0.0,7.0.3.201811082356)' severity='0'/>
+      <properties size='9'>
+        <property name='df_LT.bundleVendor' value='unknown'/>
+        <property name='df_LT.bundleName' value='Parser Plug-in Source'/>
+        <property name='org.eclipse.equinox.p2.name' value='%bundleName'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%bundleVendor'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='OSGI-INF/l10n/bundle-src'/>
+        <property name='maven-groupId' value='org.python.pydev'/>
+        <property name='maven-artifactId' value='org.python.pydev.parser'/>
+        <property name='maven-version' value='7.0.3-SNAPSHOT'/>
+        <property name='maven-classifier' value='sources'/>
+      </properties>
+      <provides size='4'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.python.pydev.parser.source' version='7.0.3.201811082356'/>
+        <provided namespace='osgi.bundle' name='org.python.pydev.parser.source' version='7.0.3.201811082356'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='source' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.python.pydev.parser.source' version='7.0.3.201811082356'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.python.pydev.parser.source&#xA;Bundle-Version: 7.0.3.201811082356
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.python.pydev.shared_interactive_console.source' version='7.0.3.201811082356' singleton='false'>
+      <update id='org.python.pydev.shared_interactive_console.source' range='[0.0.0,7.0.3.201811082356)' severity='0'/>
+      <properties size='9'>
+        <property name='df_LT.bundleVendor' value='Brainwy Software Ltda'/>
+        <property name='df_LT.bundleName' value='Interactive Console Plug-in Source'/>
+        <property name='org.eclipse.equinox.p2.name' value='%bundleName'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%bundleVendor'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='OSGI-INF/l10n/bundle-src'/>
+        <property name='maven-groupId' value='org.python.pydev'/>
+        <property name='maven-artifactId' value='org.python.pydev.shared_interactive_console'/>
+        <property name='maven-version' value='7.0.3-SNAPSHOT'/>
+        <property name='maven-classifier' value='sources'/>
+      </properties>
+      <provides size='4'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.python.pydev.shared_interactive_console.source' version='7.0.3.201811082356'/>
+        <provided namespace='osgi.bundle' name='org.python.pydev.shared_interactive_console.source' version='7.0.3.201811082356'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='source' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.python.pydev.shared_interactive_console.source' version='7.0.3.201811082356'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.python.pydev.shared_interactive_console.source&#xA;Bundle-Version: 7.0.3.201811082356
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.python.pydev.analysis' version='7.0.3.201811082356'>
+      <update id='com.python.pydev.analysis' range='[0.0.0,7.0.3.201811082356)' severity='0'/>
+      <properties size='5'>
+        <property name='org.eclipse.equinox.p2.name' value='Analysis Plug-in'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Brainwy Software Ltda'/>
+        <property name='maven-groupId' value='org.python.pydev'/>
+        <property name='maven-artifactId' value='com.python.pydev.analysis'/>
+        <property name='maven-version' value='7.0.3-SNAPSHOT'/>
+      </properties>
+      <provides size='24'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.python.pydev.analysis' version='7.0.3.201811082356'/>
+        <provided namespace='osgi.bundle' name='com.python.pydev.analysis' version='7.0.3.201811082356'/>
+        <provided namespace='java.package' name='com.python.pydev.analysis' version='0.0.0'/>
+        <provided namespace='java.package' name='com.python.pydev.analysis.additionalinfo' version='0.0.0'/>
+        <provided namespace='java.package' name='com.python.pydev.analysis.additionalinfo.builders' version='0.0.0'/>
+        <provided namespace='java.package' name='com.python.pydev.analysis.additionalinfo.dependencies' version='0.0.0'/>
+        <provided namespace='java.package' name='com.python.pydev.analysis.external' version='0.0.0'/>
+        <provided namespace='java.package' name='com.python.pydev.analysis.mypy' version='0.0.0'/>
+        <provided namespace='java.package' name='com.python.pydev.analysis.pep8' version='0.0.0'/>
+        <provided namespace='java.package' name='com.python.pydev.analysis.pylint' version='0.0.0'/>
+        <provided namespace='java.package' name='com.python.pydev.analysis.refactoring.changes' version='0.0.0'/>
+        <provided namespace='java.package' name='com.python.pydev.analysis.refactoring.quick_fixes' version='0.0.0'/>
+        <provided namespace='java.package' name='com.python.pydev.analysis.refactoring.refactorer' version='0.0.0'/>
+        <provided namespace='java.package' name='com.python.pydev.analysis.refactoring.wizards' version='0.0.0'/>
+        <provided namespace='java.package' name='com.python.pydev.analysis.refactoring.wizards.rename' version='0.0.0'/>
+        <provided namespace='java.package' name='com.python.pydev.analysis.refactoring.wizards.rename.visitors' version='0.0.0'/>
+        <provided namespace='java.package' name='com.python.pydev.analysis.scopeanalysis' version='0.0.0'/>
+        <provided namespace='java.package' name='com.python.pydev.analysis.system_info_builder' version='0.0.0'/>
+        <provided namespace='java.package' name='com.python.pydev.analysis.tabnanny' version='0.0.0'/>
+        <provided namespace='java.package' name='com.python.pydev.analysis.visitors' version='0.0.0'/>
+        <provided namespace='java.package' name='com.python.pydev.codecompletion.ctxinsensitive' version='0.0.0'/>
+        <provided namespace='java.package' name='com.python.pydev.codecompletion.participant' version='0.0.0'/>
+        <provided namespace='java.package' name='com.python.pydev.codecompletion.simpleassist' version='0.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='9'>
+        <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.junit' range='4.0.0' optional='true' greedy='false'/>
+        <required namespace='osgi.bundle' name='org.eclipse.text' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.python.pydev.ast' range='[7.0.3,7.0.4)'/>
+        <required namespace='osgi.bundle' name='org.python.pydev.core' range='[7.0.3,7.0.4)'/>
+        <required namespace='osgi.bundle' name='org.python.pydev.parser' range='[7.0.3,7.0.4)'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.resources' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ltk.core.refactoring' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.filebuffers' range='0.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.python.pydev.analysis' version='7.0.3.201811082356'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='2'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.python.pydev.analysis; singleton:=true&#xA;Bundle-Version: 7.0.3.201811082356
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.python.pydev.shared_interactive_console' version='7.0.3.201811082356'>
+      <update id='org.python.pydev.shared_interactive_console' range='[0.0.0,7.0.3.201811082356)' severity='0'/>
+      <properties size='5'>
+        <property name='org.eclipse.equinox.p2.name' value='Interactive Console Plug-in'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Brainwy Software Ltda'/>
+        <property name='maven-groupId' value='org.python.pydev'/>
+        <property name='maven-artifactId' value='org.python.pydev.shared_interactive_console'/>
+        <property name='maven-version' value='7.0.3-SNAPSHOT'/>
+      </properties>
+      <provides size='25'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.python.pydev.shared_interactive_console' version='7.0.3.201811082356'/>
+        <provided namespace='osgi.bundle' name='org.python.pydev.shared_interactive_console' version='7.0.3.201811082356'/>
+        <provided namespace='java.package' name='org.apache.commons.logging' version='0.0.0'/>
+        <provided namespace='java.package' name='org.apache.commons.logging.impl' version='0.0.0'/>
+        <provided namespace='java.package' name='org.apache.ws.commons.serialize' version='0.0.0'/>
+        <provided namespace='java.package' name='org.apache.ws.commons.util' version='0.0.0'/>
+        <provided namespace='java.package' name='org.apache.xmlrpc' version='0.0.0'/>
+        <provided namespace='java.package' name='org.apache.xmlrpc.client' version='0.0.0'/>
+        <provided namespace='java.package' name='org.apache.xmlrpc.client.util' version='0.0.0'/>
+        <provided namespace='java.package' name='org.apache.xmlrpc.common' version='0.0.0'/>
+        <provided namespace='java.package' name='org.apache.xmlrpc.jaxb' version='0.0.0'/>
+        <provided namespace='java.package' name='org.apache.xmlrpc.metadata' version='0.0.0'/>
+        <provided namespace='java.package' name='org.apache.xmlrpc.parser' version='0.0.0'/>
+        <provided namespace='java.package' name='org.apache.xmlrpc.serializer' version='0.0.0'/>
+        <provided namespace='java.package' name='org.apache.xmlrpc.server' version='0.0.0'/>
+        <provided namespace='java.package' name='org.apache.xmlrpc.util' version='0.0.0'/>
+        <provided namespace='java.package' name='org.apache.xmlrpc.webserver' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.shared_interactive_console' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.shared_interactive_console.console' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.shared_interactive_console.console.codegen' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.shared_interactive_console.console.ui' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.shared_interactive_console.console.ui.internal' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.shared_interactive_console.console.ui.internal.actions' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.shared_interactive_console.console.ui.internal.fromeclipse' version='0.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='11'>
+        <required namespace='osgi.bundle' name='org.eclipse.ui' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.jface.text' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui.console' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.debug.core' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.debug.ui' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui.workbench.texteditor' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.python.pydev.shared_core' range='[7.0.3,7.0.4)'/>
+        <required namespace='osgi.bundle' name='org.python.pydev.core' range='[7.0.3,7.0.4)'/>
+        <required namespace='osgi.bundle' name='org.python.pydev.shared_ui' range='[7.0.3,7.0.4)'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui.ide' range='0.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.python.pydev.shared_interactive_console' version='7.0.3.201811082356'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='2'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.python.pydev.shared_interactive_console;singleton:=true&#xA;Bundle-Version: 7.0.3.201811082356
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.python.pydev.analysis.source' version='7.0.3.201811082356' singleton='false'>
+      <update id='com.python.pydev.analysis.source' range='[0.0.0,7.0.3.201811082356)' severity='0'/>
+      <properties size='9'>
+        <property name='df_LT.bundleVendor' value='Brainwy Software Ltda'/>
+        <property name='df_LT.bundleName' value='Analysis Plug-in Source'/>
+        <property name='org.eclipse.equinox.p2.name' value='%bundleName'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%bundleVendor'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='OSGI-INF/l10n/bundle-src'/>
+        <property name='maven-groupId' value='org.python.pydev'/>
+        <property name='maven-artifactId' value='com.python.pydev.analysis'/>
+        <property name='maven-version' value='7.0.3-SNAPSHOT'/>
+        <property name='maven-classifier' value='sources'/>
+      </properties>
+      <provides size='4'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.python.pydev.analysis.source' version='7.0.3.201811082356'/>
+        <provided namespace='osgi.bundle' name='com.python.pydev.analysis.source' version='7.0.3.201811082356'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='source' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.python.pydev.analysis.source' version='7.0.3.201811082356'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.python.pydev.analysis.source&#xA;Bundle-Version: 7.0.3.201811082356
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.python.pydev.help' version='7.0.3.201811082356'>
+      <update id='org.python.pydev.help' range='[0.0.0,7.0.3.201811082356)' severity='0'/>
+      <properties size='5'>
+        <property name='org.eclipse.equinox.p2.name' value='Pydev Online Help'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Brainwy Software Ltda'/>
+        <property name='maven-groupId' value='org.python.pydev'/>
+        <property name='maven-artifactId' value='org.python.pydev.help'/>
+        <property name='maven-version' value='7.0.3-SNAPSHOT'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.python.pydev.help' version='7.0.3.201811082356'/>
+        <provided namespace='osgi.bundle' name='org.python.pydev.help' version='7.0.3.201811082356'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.python.pydev.help' version='7.0.3.201811082356'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='2'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.python.pydev.help; singleton:=true&#xA;Bundle-Version: 7.0.3.201811082356
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.python.pydev.shared_core.source' version='7.0.3.201811082356' singleton='false'>
+      <update id='org.python.pydev.shared_core.source' range='[0.0.0,7.0.3.201811082356)' severity='0'/>
+      <properties size='9'>
+        <property name='df_LT.bundleVendor' value='Brainwy Software Ltda'/>
+        <property name='df_LT.bundleName' value='Shared Core Plug-in Source'/>
+        <property name='org.eclipse.equinox.p2.name' value='%bundleName'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%bundleVendor'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='OSGI-INF/l10n/bundle-src'/>
+        <property name='maven-groupId' value='org.python.pydev'/>
+        <property name='maven-artifactId' value='org.python.pydev.shared_core'/>
+        <property name='maven-version' value='7.0.3-SNAPSHOT'/>
+        <property name='maven-classifier' value='sources'/>
+      </properties>
+      <provides size='4'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.python.pydev.shared_core.source' version='7.0.3.201811082356'/>
+        <provided namespace='osgi.bundle' name='org.python.pydev.shared_core.source' version='7.0.3.201811082356'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='source' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.python.pydev.shared_core.source' version='7.0.3.201811082356'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.python.pydev.shared_core.source&#xA;Bundle-Version: 7.0.3.201811082356
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.python.pydev.debug' version='7.0.3.201811082356'>
+      <update id='org.python.pydev.debug' range='[0.0.0,7.0.3.201811082356)' severity='0'/>
+      <properties size='5'>
+        <property name='org.eclipse.equinox.p2.name' value='Pydev debug'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Brainwy Software Ltda'/>
+        <property name='maven-groupId' value='org.python.pydev'/>
+        <property name='maven-artifactId' value='org.python.pydev.debug'/>
+        <property name='maven-version' value='7.0.3-SNAPSHOT'/>
+      </properties>
+      <provides size='29'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.python.pydev.debug' version='7.0.3.201811082356'/>
+        <provided namespace='osgi.bundle' name='org.python.pydev.debug' version='7.0.3.201811082356'/>
+        <provided namespace='java.package' name='com.python.pydev.interactiveconsole' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.debug.codecoverage' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.debug.console' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.debug.console_actions' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.debug.core' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.debug.curr_exception' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.debug.handlers' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.debug.model' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.debug.model.remote' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.debug.newconsole' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.debug.newconsole.actions' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.debug.newconsole.env' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.debug.newconsole.prefs' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.debug.processfactory' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.debug.profile' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.debug.pyunit' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.debug.quick_assist' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.debug.referrers' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.debug.ui' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.debug.ui.actions' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.debug.ui.blocks' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.debug.ui.hover' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.debug.ui.launching' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.debug.ui.propertypages' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.debug.ui.variables' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.debug.views' version='0.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='22'>
+        <required namespace='osgi.bundle' name='org.junit' range='4.0.0' optional='true' greedy='false'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui.ide' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.resources' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.jface.text' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui.editors' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui.views' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.debug.core' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.debug.ui' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui.workbench.texteditor' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.variables' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui.console' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.python.pydev.core' range='[7.0.3,7.0.4)'/>
+        <required namespace='osgi.bundle' name='org.python.pydev.ast' range='[7.0.3,7.0.4)'/>
+        <required namespace='osgi.bundle' name='org.python.pydev.parser' range='[7.0.3,7.0.4)'/>
+        <required namespace='osgi.bundle' name='org.python.pydev' range='[7.0.3,7.0.4)'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.expressions' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.python.pydev.jython' range='[7.0.3,7.0.4)'/>
+        <required namespace='osgi.bundle' name='org.python.pydev.shared_interactive_console' range='[7.0.3,7.0.4)'/>
+        <required namespace='osgi.bundle' name='org.python.pydev.shared_ui' range='[7.0.3,7.0.4)'/>
+        <required namespace='java.package' name='org.eclipse.core.filesystem' range='0.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.python.pydev.debug' version='7.0.3.201811082356'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='2'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.python.pydev.debug; singleton:=true&#xA;Bundle-Version: 7.0.3.201811082356
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.python.pydev' version='7.0.3.201811082356'>
+      <update id='org.python.pydev' range='[0.0.0,7.0.3.201811082356)' severity='0'/>
+      <properties size='6'>
+        <property name='org.eclipse.equinox.p2.name' value='PyDev - Python Development Environment'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Brainwy Software Ltda'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='plugin'/>
+        <property name='maven-groupId' value='org.python.pydev'/>
+        <property name='maven-artifactId' value='org.python.pydev'/>
+        <property name='maven-version' value='7.0.3-SNAPSHOT'/>
+      </properties>
+      <provides size='77'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.python.pydev' version='7.0.3.201811082356'/>
+        <provided namespace='osgi.bundle' name='org.python.pydev' version='7.0.3.201811082356'/>
+        <provided namespace='java.package' name='com.python.pydev.actions' version='0.0.0'/>
+        <provided namespace='java.package' name='com.python.pydev.analysis' version='0.0.0'/>
+        <provided namespace='java.package' name='com.python.pydev.analysis.actions' version='0.0.0'/>
+        <provided namespace='java.package' name='com.python.pydev.analysis.additionalinfo' version='0.0.0'/>
+        <provided namespace='java.package' name='com.python.pydev.analysis.builder' version='0.0.0'/>
+        <provided namespace='java.package' name='com.python.pydev.analysis.ctrl_1' version='0.0.0'/>
+        <provided namespace='java.package' name='com.python.pydev.analysis.indexview' version='0.0.0'/>
+        <provided namespace='java.package' name='com.python.pydev.analysis.ui' version='0.0.0'/>
+        <provided namespace='java.package' name='com.python.pydev.ui.hierarchy' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.copiedfromeclipsesrc' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.ast.codecompletion' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.ast.codecompletion.revisited' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.ast.codecompletion.revisited.javaintegration' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.ast.codecompletion.revisited.jython' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.ast.codecompletion.revisited.visitors' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.ast.codecompletion.shell' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.ast.interpreter_managers' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.builder' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.builder.pylint' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.builder.syntaxchecker' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.builder.todo' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.changed_lines' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.codingstd' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.consoles' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.dltk.console.codegen' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.editor' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.editor.actions' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.editor.actions.codefolding' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.editor.actions.refactoring' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.editor.codecompletion' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.editor.codecompletion.proposals' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.editor.codecompletion.templates' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.editor.codefolding' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.editor.commentblocks' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.editor.correctionassist' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.editor.correctionassist.docstrings' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.editor.correctionassist.heuristics' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.editor.hover' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.editor.preferences' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.editor.scripting' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.editor.templates' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.editorinput' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.logging' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.navigator' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.navigator.actions' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.navigator.actions.copied' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.navigator.elements' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.navigator.filters' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.navigator.properties' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.navigator.sorter' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.navigator.ui' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.outline' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.plugin' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.plugin.preferences' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.process_window' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.pyunit.preferences' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.tree' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.ui' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.ui.actions.container' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.ui.actions.project' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.ui.actions.resources' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.ui.dialogs' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.ui.editors' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.ui.filetypes' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.ui.importsconf' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.ui.interpreters' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.ui.perspective' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.ui.pythonpathconf' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.ui.pythonpathconf.package_manager' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.ui.refactoring' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.ui.wizards.files' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.ui.wizards.gettingstarted' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.ui.wizards.project' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.utils' version='0.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='32'>
+        <required namespace='osgi.bundle' name='org.junit' range='4.0.0' optional='true' greedy='false'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ltk.core.refactoring' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.variables' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.filesystem' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.expressions' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.python.pydev.ast' range='[7.0.3,7.0.4)'/>
+        <required namespace='osgi.bundle' name='org.python.pydev.parser' range='[7.0.3,7.0.4)'/>
+        <required namespace='osgi.bundle' name='org.python.pydev.core' range='[7.0.3,7.0.4)'/>
+        <required namespace='osgi.bundle' name='org.eclipse.jface.text' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui.editors' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui.views' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui.workbench.texteditor' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.jdt.launching' range='0.0.0' optional='true' greedy='false'/>
+        <required namespace='osgi.bundle' name='org.eclipse.search' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui.ide' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.python.pydev.shared_ui' range='[7.0.3,7.0.4)'/>
+        <required namespace='osgi.bundle' name='org.eclipse.debug.ui' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui.console' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.python.pydev.jython' range='[7.0.3,7.0.4)'/>
+        <required namespace='osgi.bundle' name='com.python.pydev.analysis' range='[7.0.3,7.0.4)'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui.navigator' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui.navigator.resources' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.jdt.core' range='0.0.0' optional='true' greedy='false'/>
+        <required namespace='osgi.bundle' name='org.eclipse.jdt.ui' range='0.0.0' optional='true' greedy='false'/>
+        <required namespace='osgi.bundle' name='org.eclipse.compare' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.python.pydev.shared_interactive_console' range='[7.0.3,7.0.4)'/>
+        <required namespace='osgi.bundle' name='org.eclipse.e4.ui.css.swt.theme' range='0.0.0' optional='true' greedy='false'/>
+        <required namespace='osgi.bundle' name='org.eclipse.e4.ui.services' range='0.0.0' optional='true' greedy='false'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui.forms' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ltk.ui.refactoring' range='0.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.python.pydev' version='7.0.3.201811082356'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='2'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.python.pydev; singleton:=true&#xA;Bundle-Version: 7.0.3.201811082356
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.python.pydev.debug.source' version='7.0.3.201811082356' singleton='false'>
+      <update id='org.python.pydev.debug.source' range='[0.0.0,7.0.3.201811082356)' severity='0'/>
+      <properties size='9'>
+        <property name='df_LT.bundleVendor' value='Brainwy Software Ltda'/>
+        <property name='df_LT.bundleName' value='Pydev debug Source'/>
+        <property name='org.eclipse.equinox.p2.name' value='%bundleName'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%bundleVendor'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='OSGI-INF/l10n/bundle-src'/>
+        <property name='maven-groupId' value='org.python.pydev'/>
+        <property name='maven-artifactId' value='org.python.pydev.debug'/>
+        <property name='maven-version' value='7.0.3-SNAPSHOT'/>
+        <property name='maven-classifier' value='sources'/>
+      </properties>
+      <provides size='4'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.python.pydev.debug.source' version='7.0.3.201811082356'/>
+        <provided namespace='osgi.bundle' name='org.python.pydev.debug.source' version='7.0.3.201811082356'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='source' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.python.pydev.debug.source' version='7.0.3.201811082356'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.python.pydev.debug.source&#xA;Bundle-Version: 7.0.3.201811082356
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.python.pydev.feature.feature.jar' version='7.0.3.201811082356'>
+      <properties size='7'>
+        <property name='org.eclipse.equinox.p2.name' value='PyDev for Eclipse'/>
+        <property name='org.eclipse.equinox.p2.description' value='Python Development Environment'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Fabio Zadrozny'/>
+        <property name='org.eclipse.update.feature.plugin' value='org.python.pydev'/>
+        <property name='maven-groupId' value='org.python.pydev'/>
+        <property name='maven-artifactId' value='org.python.pydev.feature'/>
+        <property name='maven-version' value='7.0.3-SNAPSHOT'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.python.pydev.feature.feature.jar' version='7.0.3.201811082356'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
+        <provided namespace='org.eclipse.update.feature' name='org.python.pydev.feature' version='7.0.3.201811082356'/>
+      </provides>
+      <filter>
+        (org.eclipse.update.install.features=true)
+      </filter>
+      <artifacts size='1'>
+        <artifact classifier='org.eclipse.update.feature' id='org.python.pydev.feature' version='7.0.3.201811082356'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+        </instructions>
+      </touchpointData>
+      <licenses size='1'>
+        <license uri='http://www.opensource.org/licenses/eclipse-1.0.php' url='http://www.opensource.org/licenses/eclipse-1.0.php'>
+          Eclipse Public License - v 1.0&#xA;&#xA;THE ACCOMPANYING PROGRAM IS PROVIDED UNDER THE TERMS OF THIS ECLIPSE PUBLIC LICENSE (&quot;AGREEMENT&quot;). ANY USE, REPRODUCTION OR DISTRIBUTION OF THE PROGRAM CONSTITUTES RECIPIENT’S ACCEPTANCE OF THIS AGREEMENT.&#xA;&#xA;1. DEFINITIONS&#xA;&#xA;&quot;Contribution&quot; means:&#xA;&#xA;    a) in the case of the initial Contributor, the initial code and documentation distributed under this Agreement, and&#xA;    b) in the case of each subsequent Contributor:&#xA;&#xA;    i)changes to the Program, and&#xA;&#xA;    ii)additions to the Program;&#xA;&#xA;    where such changes and/or additions to the Program originate from and are distributed by that particular Contributor. A Contribution &apos;originates&apos; from a Contributor if it was added to the Program by such Contributor itself or anyone acting on such Contributor’s behalf. Contributions do not include additions to the Program which: (i) are separate modules of software distributed in conjunction with the Program under their own license agreement, and (ii) are not derivative works of the Program.&#xA;&#xA;&quot;Contributor&quot; means any person or entity that distributes the Program.&#xA;&#xA;&quot;Licensed Patents &quot; mean patent claims licensable by a Contributor which are necessarily infringed by the use or sale of its Contribution alone or when combined with the Program.&#xA;&#xA;&quot;Program&quot; means the Contributions distributed in accordance with this Agreement.&#xA;&#xA;&quot;Recipient&quot; means anyone who receives the Program under this Agreement, including all Contributors.&#xA;&#xA;2. GRANT OF RIGHTS&#xA;&#xA;a) Subject to the terms of this Agreement, each Contributor hereby grants Recipient a non-exclusive, worldwide, royalty-free copyright license to reproduce, prepare derivative works of, publicly display, publicly perform, distribute and sublicense the Contribution of such Contributor, if any, and such derivative works, in source code and object code form.&#xA;&#xA;b) Subject to the terms of this Agreement, each Contributor hereby grants Recipient a non-exclusive, worldwide, royalty-free patent license under Licensed Patents to make, use, sell, offer to sell, import and otherwise transfer the Contribution of such Contributor, if any, in source code and object code form. This patent license shall apply to the combination of the Contribution and the Program if, at the time the Contribution is added by the Contributor, such addition of the Contribution causes such combination to be covered by the Licensed Patents. The patent license shall not apply to any other combinations which include the Contribution. No hardware per se is licensed hereunder.&#xA;&#xA;c) Recipient understands that although each Contributor grants the licenses to its Contributions set forth herein, no assurances are provided by any Contributor that the Program does not infringe the patent or other intellectual property rights of any other entity. Each Contributor disclaims any liability to Recipient for claims brought by any other entity based on infringement of intellectual property rights or otherwise. As a condition to exercising the rights and licenses granted hereunder, each Recipient hereby assumes sole responsibility to secure any other intellectual property rights needed, if any. For example, if a third party patent license is required to allow Recipient to distribute the Program, it is Recipient’s responsibility to acquire that license before distributing the Program.&#xA;&#xA;d) Each Contributor represents that to its knowledge it has sufficient copyright rights in its Contribution, if any, to grant the copyright license set forth in this Agreement.&#xA;&#xA;3. REQUIREMENTS&#xA;&#xA;A Contributor may choose to distribute the Program in object code form under its own license agreement, provided that:&#xA;&#xA;    a) it complies with the terms and conditions of this Agreement; and&#xA;&#xA;    b) its license agreement:&#xA;&#xA;    i) effectively disclaims on behalf of all Contributors all warranties and conditions, express and implied, including warranties or conditions of title and non-infringement, and implied warranties or conditions of merchantability and fitness for a particular purpose;&#xA;&#xA;    ii) effectively excludes on behalf of all Contributors all liability for damages, including direct, indirect, special, incidental and consequential damages, such as lost profits;&#xA;&#xA;    iii) states that any provisions which differ from this Agreement are offered by that Contributor alone and not by any other party; and&#xA;&#xA;    iv) states that source code for the Program is available from such Contributor, and informs licensees how to obtain it in a reasonable manner on or through a medium customarily used for software exchange.&#xA;&#xA;When the Program is made available in source code form:&#xA;&#xA;    a) it must be made available under this Agreement; and&#xA;&#xA;    b) a copy of this Agreement must be included with each copy of the Program.&#xA;&#xA;Contributors may not remove or alter any copyright notices contained within the Program.&#xA;&#xA;Each Contributor must identify itself as the originator of its Contribution, if any, in a manner that reasonably allows subsequent Recipients to identify the originator of the Contribution.&#xA;&#xA;4. COMMERCIAL DISTRIBUTION&#xA;&#xA;Commercial distributors of software may accept certain responsibilities with respect to end users, business partners and the like. While this license is intended to facilitate the commercial use of the Program, the Contributor who includes the Program in a commercial product offering should do so in a manner which does not create potential liability for other Contributors. Therefore, if a Contributor includes the Program in a commercial product offering, such Contributor (&quot;Commercial Contributor&quot;) hereby agrees to defend and indemnify every other Contributor (&quot;Indemnified Contributor&quot;) against any losses, damages and costs (collectively &quot;Losses&quot;) arising from claims, lawsuits and other legal actions brought by a third party against the Indemnified Contributor to the extent caused by the acts or omissions of such Commercial Contributor in connection with its distribution of the Program in a commercial product offering. The obligations in this section do not apply to any claims or Losses relating to any actual or alleged intellectual property infringement. In order to qualify, an Indemnified Contributor must: a) promptly notify the Commercial Contributor in writing of such claim, and b) allow the Commercial Contributor to control, and cooperate with the Commercial Contributor in, the defense and any related settlement negotiations. The Indemnified Contributor may participate in any such claim at its own expense.&#xA;&#xA;For example, a Contributor might include the Program in a commercial product offering, Product X. That Contributor is then a Commercial Contributor. If that Commercial Contributor then makes performance claims, or offers warranties related to Product X, those performance claims and warranties are such Commercial Contributor’s responsibility alone. Under this section, the Commercial Contributor would have to defend claims against the other Contributors related to those performance claims and warranties, and if a court requires any other Contributor to pay any damages as a result, the Commercial Contributor must pay those damages.&#xA;&#xA;5. NO WARRANTY&#xA;&#xA;EXCEPT AS EXPRESSLY SET FORTH IN THIS AGREEMENT, THE PROGRAM IS PROVIDED ON AN &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED INCLUDING, WITHOUT LIMITATION, ANY WARRANTIES OR CONDITIONS OF TITLE, NON-INFRINGEMENT, MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. Each Recipient is solely responsible for determining the appropriateness of using and distributing the Program and assumes all risks associated with its exercise of rights under this Agreement , including but not limited to the risks and costs of program errors, compliance with applicable laws, damage to or loss of data, programs or equipment, and unavailability or interruption of operations.&#xA;&#xA;6. DISCLAIMER OF LIABILITY&#xA;&#xA;EXCEPT AS EXPRESSLY SET FORTH IN THIS AGREEMENT, NEITHER RECIPIENT NOR ANY CONTRIBUTORS SHALL HAVE ANY LIABILITY FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING WITHOUT LIMITATION LOST PROFITS), HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OR DISTRIBUTION OF THE PROGRAM OR THE EXERCISE OF ANY RIGHTS GRANTED HEREUNDER, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.&#xA;&#xA;7. GENERAL&#xA;&#xA;If any provision of this Agreement is invalid or unenforceable under applicable law, it shall not affect the validity or enforceability of the remainder of the terms of this Agreement, and without further action by the parties hereto, such provision shall be reformed to the minimum extent necessary to make such provision valid and enforceable.&#xA;&#xA;If Recipient institutes patent litigation against any entity (including a cross-claim or counterclaim in a lawsuit) alleging that the Program itself (excluding combinations of the Program with other software or hardware) infringes such Recipient’s patent(s), then such Recipient’s rights granted under Section 2(b) shall terminate as of the date such litigation is filed.&#xA;&#xA;All Recipient’s rights under this Agreement shall terminate if it fails to comply with any of the material terms or conditions of this Agreement and does not cure such failure in a reasonable period of time after becoming aware of such noncompliance. If all Recipient’s rights under this Agreement terminate, Recipient agrees to cease use and distribution of the Program as soon as reasonably practicable. However, Recipient’s obligations under this Agreement and any licenses granted by Recipient relating to the Program shall continue and survive.&#xA;&#xA;Everyone is permitted to copy and distribute copies of this Agreement, but in order to avoid inconsistency the Agreement is copyrighted and may only be modified in the following manner. The Agreement Steward reserves the right to publish new versions (including revisions) of this Agreement from time to time. No one other than the Agreement Steward has the right to modify this Agreement. The Eclipse Foundation is the initial Agreement Steward. The Eclipse Foundation may assign the responsibility to serve as the Agreement Steward to a suitable separate entity. Each new version of the Agreement will be given a distinguishing version number. The Program (including Contributions) may always be distributed subject to the version of the Agreement under which it was received. In addition, after a new version of the Agreement is published, Contributor may elect to distribute the Program (including its Contributions) under the new version. Except as expressly stated in Sections 2(a) and 2(b) above, Recipient receives no rights or licenses to the intellectual property of any Contributor under this Agreement, whether expressly, by implication, estoppel or otherwise. All rights in the Program not expressly granted under this Agreement are reserved.&#xA;&#xA;This Agreement is governed by the laws of the State of New York and the intellectual property laws of the United States of America. No party to this Agreement will bring a legal action under this Agreement more than one year after the cause of action arose. Each party waives its rights to a jury trial in any resulting litigation.
+        </license>
+      </licenses>
+      <copyright>
+        © Fabio Zadrozny.
+      </copyright>
+    </unit>
+    <unit id='201811082356.PyDev' version='1.0.0.7R-7AcLFtdL7E7AcAA7cEIQU'>
+      <properties size='3'>
+        <property name='org.eclipse.equinox.p2.name' value='PyDev'/>
+        <property name='org.eclipse.equinox.p2.description' value='PyDev'/>
+        <property name='org.eclipse.equinox.p2.type.category' value='true'/>
+      </properties>
+      <provides size='1'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='201811082356.PyDev' version='1.0.0.7R-7AcLFtdL7E7AcAA7cEIQU'/>
+      </provides>
+      <requires size='2'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.python.pydev.feature.feature.group' range='[7.0.3.201811082356,7.0.3.201811082356]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.python.pydev.feature.source.feature.group' range='[7.0.3.201811082356,7.0.3.201811082356]'/>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+    </unit>
+    <unit id='org.python.pydev.django' version='7.0.3.201811082356'>
+      <update id='org.python.pydev.django' range='[0.0.0,7.0.3.201811082356)' severity='0'/>
+      <properties size='5'>
+        <property name='org.eclipse.equinox.p2.name' value='Pydev Django'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Brainwy Software Ltda'/>
+        <property name='maven-groupId' value='org.python.pydev'/>
+        <property name='maven-artifactId' value='org.python.pydev.django'/>
+        <property name='maven-version' value='7.0.3-SNAPSHOT'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.python.pydev.django' version='7.0.3.201811082356'/>
+        <provided namespace='osgi.bundle' name='org.python.pydev.django' version='7.0.3.201811082356'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='23'>
+        <required namespace='osgi.bundle' name='org.eclipse.ui' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.jface.text' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.python.pydev' range='[7.0.3,7.0.4)'/>
+        <required namespace='osgi.bundle' name='org.python.pydev.core' range='[7.0.3,7.0.4)'/>
+        <required namespace='osgi.bundle' name='org.junit' range='4.0.0' optional='true' greedy='false'/>
+        <required namespace='osgi.bundle' name='org.python.pydev.ast' range='[7.0.3,7.0.4)'/>
+        <required namespace='osgi.bundle' name='org.python.pydev.parser' range='[7.0.3,7.0.4)'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui.editors' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui.workbench.texteditor' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.resources' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.variables' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.debug.core' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.debug.ui' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.python.pydev.debug' range='[7.0.3,7.0.4)'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui.console' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.python.pydev.jython' range='[7.0.3,7.0.4)'/>
+        <required namespace='osgi.bundle' name='org.eclipse.search' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui.ide' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.python.pydev.customizations' range='[7.0.3,7.0.4)'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.expressions' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.python.pydev.shared_ui' range='[7.0.3,7.0.4)'/>
+        <required namespace='osgi.bundle' name='org.python.pydev.shared_interactive_console' range='[7.0.3,7.0.4)'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.python.pydev.django' version='7.0.3.201811082356'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='2'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.python.pydev.django;singleton:=true&#xA;Bundle-Version: 7.0.3.201811082356
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.python.pydev.jython.source' version='7.0.3.201811082356' singleton='false'>
+      <update id='org.python.pydev.jython.source' range='[0.0.0,7.0.3.201811082356)' severity='0'/>
+      <properties size='9'>
+        <property name='df_LT.bundleVendor' value='Brainwy Software Ltda'/>
+        <property name='df_LT.bundleName' value='Jython Plug-in Source'/>
+        <property name='org.eclipse.equinox.p2.name' value='%bundleName'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%bundleVendor'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='OSGI-INF/l10n/bundle-src'/>
+        <property name='maven-groupId' value='org.python.pydev'/>
+        <property name='maven-artifactId' value='org.python.pydev.jython'/>
+        <property name='maven-version' value='7.0.3-SNAPSHOT'/>
+        <property name='maven-classifier' value='sources'/>
+      </properties>
+      <provides size='4'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.python.pydev.jython.source' version='7.0.3.201811082356'/>
+        <provided namespace='osgi.bundle' name='org.python.pydev.jython.source' version='7.0.3.201811082356'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='source' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.python.pydev.jython.source' version='7.0.3.201811082356'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.python.pydev.jython.source&#xA;Bundle-Version: 7.0.3.201811082356
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.python.pydev.debug' version='7.0.3.201811082356'>
+      <update id='com.python.pydev.debug' range='[0.0.0,7.0.3.201811082356)' severity='0'/>
+      <properties size='5'>
+        <property name='org.eclipse.equinox.p2.name' value='Extensions Debug Plug-in'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Brainwy Software Ltda'/>
+        <property name='maven-groupId' value='org.python.pydev'/>
+        <property name='maven-artifactId' value='com.python.pydev.debug'/>
+        <property name='maven-version' value='7.0.3-SNAPSHOT'/>
+      </properties>
+      <provides size='4'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.python.pydev.debug' version='7.0.3.201811082356'/>
+        <provided namespace='osgi.bundle' name='com.python.pydev.debug' version='7.0.3.201811082356'/>
+        <provided namespace='java.package' name='com.python.pydev.debug.remote.client_api' version='0.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='12'>
+        <required namespace='osgi.bundle' name='org.eclipse.ui' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.python.pydev.ast' range='[7.0.3,7.0.4)'/>
+        <required namespace='osgi.bundle' name='org.python.pydev.core' range='[7.0.3,7.0.4)'/>
+        <required namespace='osgi.bundle' name='org.python.pydev' range='[7.0.3,7.0.4)'/>
+        <required namespace='osgi.bundle' name='org.python.pydev.debug' range='[7.0.3,7.0.4)'/>
+        <required namespace='osgi.bundle' name='org.eclipse.debug.core' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.resources' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.debug.ui' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.junit' range='4.0.0' optional='true' greedy='false'/>
+        <required namespace='osgi.bundle' name='org.python.pydev.shared_ui' range='[7.0.3,7.0.4)'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui.console' range='0.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.python.pydev.debug' version='7.0.3.201811082356'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='2'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.python.pydev.debug; singleton:=true&#xA;Bundle-Version: 7.0.3.201811082356
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.python.pydev.customizations' version='7.0.3.201811082356'>
+      <update id='org.python.pydev.customizations' range='[0.0.0,7.0.3.201811082356)' severity='0'/>
+      <properties size='5'>
+        <property name='org.eclipse.equinox.p2.name' value='Customizations Plug-in'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Brainwy Software Ltda'/>
+        <property name='maven-groupId' value='org.python.pydev'/>
+        <property name='maven-artifactId' value='org.python.pydev.customizations'/>
+        <property name='maven-version' value='7.0.3-SNAPSHOT'/>
+      </properties>
+      <provides size='9'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.python.pydev.customizations' version='7.0.3.201811082356'/>
+        <provided namespace='osgi.bundle' name='org.python.pydev.customizations' version='7.0.3.201811082356'/>
+        <provided namespace='java.package' name='org.python.pydev.customizations' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.customizations.app_engine.actions' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.customizations.app_engine.launching' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.customizations.app_engine.util' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.customizations.app_engine.wizards' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.customizations.common' version='0.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='12'>
+        <required namespace='osgi.bundle' name='org.eclipse.ui' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.resources' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.python.pydev.core' range='[7.0.3,7.0.4)'/>
+        <required namespace='osgi.bundle' name='org.python.pydev.ast' range='[7.0.3,7.0.4)'/>
+        <required namespace='osgi.bundle' name='org.python.pydev' range='[7.0.3,7.0.4)'/>
+        <required namespace='osgi.bundle' name='org.python.pydev.debug' range='[7.0.3,7.0.4)'/>
+        <required namespace='osgi.bundle' name='org.junit' range='4.0.0' optional='true' greedy='false'/>
+        <required namespace='osgi.bundle' name='org.eclipse.debug.core' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.debug.ui' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.expressions' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.python.pydev.shared_ui' range='[7.0.3,7.0.4)'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.python.pydev.customizations' version='7.0.3.201811082356'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='2'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.python.pydev.customizations; singleton:=true&#xA;Bundle-Version: 7.0.3.201811082356
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.python.pydev.refactoring.source' version='7.0.3.201811082356' singleton='false'>
+      <update id='org.python.pydev.refactoring.source' range='[0.0.0,7.0.3.201811082356)' severity='0'/>
+      <properties size='9'>
+        <property name='df_LT.bundleVendor' value='Aptana'/>
+        <property name='df_LT.bundleName' value='Python Refactoring Plug-In Source'/>
+        <property name='org.eclipse.equinox.p2.name' value='%bundleName'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%bundleVendor'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='OSGI-INF/l10n/bundle-src'/>
+        <property name='maven-groupId' value='org.python.pydev'/>
+        <property name='maven-artifactId' value='org.python.pydev.refactoring'/>
+        <property name='maven-version' value='7.0.3-SNAPSHOT'/>
+        <property name='maven-classifier' value='sources'/>
+      </properties>
+      <provides size='4'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.python.pydev.refactoring.source' version='7.0.3.201811082356'/>
+        <provided namespace='osgi.bundle' name='org.python.pydev.refactoring.source' version='7.0.3.201811082356'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='source' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.python.pydev.refactoring.source' version='7.0.3.201811082356'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.python.pydev.refactoring.source&#xA;Bundle-Version: 7.0.3.201811082356
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.python.pydev.refactoring.source' version='7.0.3.201811082356' singleton='false'>
+      <update id='com.python.pydev.refactoring.source' range='[0.0.0,7.0.3.201811082356)' severity='0'/>
+      <properties size='9'>
+        <property name='df_LT.bundleVendor' value='Brainwy Software Ltda'/>
+        <property name='df_LT.bundleName' value='Refactoring Plug-in Source'/>
+        <property name='org.eclipse.equinox.p2.name' value='%bundleName'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%bundleVendor'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='OSGI-INF/l10n/bundle-src'/>
+        <property name='maven-groupId' value='org.python.pydev'/>
+        <property name='maven-artifactId' value='com.python.pydev.refactoring'/>
+        <property name='maven-version' value='7.0.3-SNAPSHOT'/>
+        <property name='maven-classifier' value='sources'/>
+      </properties>
+      <provides size='4'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.python.pydev.refactoring.source' version='7.0.3.201811082356'/>
+        <provided namespace='osgi.bundle' name='com.python.pydev.refactoring.source' version='7.0.3.201811082356'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='source' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.python.pydev.refactoring.source' version='7.0.3.201811082356'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.python.pydev.refactoring.source&#xA;Bundle-Version: 7.0.3.201811082356
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.python.pydev.core' version='7.0.3.201811082356'>
+      <update id='org.python.pydev.core' range='[0.0.0,7.0.3.201811082356)' severity='0'/>
+      <properties size='5'>
+        <property name='org.eclipse.equinox.p2.name' value='Core Plug-in'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Brainwy Software Ltda'/>
+        <property name='maven-groupId' value='org.python.pydev'/>
+        <property name='maven-artifactId' value='org.python.pydev.core'/>
+        <property name='maven-version' value='7.0.3-SNAPSHOT'/>
+      </properties>
+      <provides size='24'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.python.pydev.core' version='7.0.3.201811082356'/>
+        <provided namespace='osgi.bundle' name='org.python.pydev.core' version='7.0.3.201811082356'/>
+        <provided namespace='java.package' name='org.python.copiedfromeclipsesrc' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.core' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.core.autoedit' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.core.cache' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.core.concurrency' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.core.docutils' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.core.editor' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.core.formatter' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.core.interactive_console' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.core.interpreters' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.core.log' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.core.logging' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.core.nature' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.core.parser' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.core.partition' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.core.performanceeval' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.core.preferences' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.core.proposals' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.core.structure' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.refactoring.core.base' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.shared_ui.search.replace' version='0.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='9'>
+        <required namespace='osgi.bundle' name='org.junit' range='4.0.0' optional='true' greedy='false'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.resources' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.filebuffers' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.variables' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.text' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.python.pydev.shared_core' range='[7.0.3,7.0.4)'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ltk.core.refactoring' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.filesystem' range='0.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.python.pydev.core' version='7.0.3.201811082356'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='2'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.python.pydev.core; singleton:=true&#xA;Bundle-Version: 7.0.3.201811082356
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.python.pydev.feature.feature.group' version='7.0.3.201811082356' singleton='false'>
+      <update id='org.python.pydev.feature.feature.group' range='[0.0.0,7.0.3.201811082356)' severity='0'/>
+      <properties size='7'>
+        <property name='org.eclipse.equinox.p2.name' value='PyDev for Eclipse'/>
+        <property name='org.eclipse.equinox.p2.description' value='Python Development Environment'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Fabio Zadrozny'/>
+        <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+        <property name='maven-groupId' value='org.python.pydev'/>
+        <property name='maven-artifactId' value='org.python.pydev.feature'/>
+        <property name='maven-version' value='7.0.3-SNAPSHOT'/>
+      </properties>
+      <provides size='1'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.python.pydev.feature.feature.group' version='7.0.3.201811082356'/>
+      </provides>
+      <requires size='33'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ui' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.core.runtime' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.jface.text' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.core.resources' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ui.workbench.texteditor' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.core.filebuffers' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ui.ide' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ui.editors' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ui.console' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ui.views' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.debug.core' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.core.variables' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.search' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.debug.ui' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ltk.core.refactoring' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ltk.ui.refactoring' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.python.pydev.core' range='[7.0.3.201811082356,7.0.3.201811082356]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.python.pydev.parser' range='[7.0.3.201811082356,7.0.3.201811082356]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.python.pydev.ast' range='[7.0.3.201811082356,7.0.3.201811082356]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.python.pydev.jython' range='[7.0.3.201811082356,7.0.3.201811082356]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.python.pydev.help' range='[7.0.3.201811082356,7.0.3.201811082356]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.python.pydev' range='[7.0.3.201811082356,7.0.3.201811082356]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.python.pydev.debug' range='[7.0.3.201811082356,7.0.3.201811082356]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.python.pydev.refactoring' range='[7.0.3.201811082356,7.0.3.201811082356]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.python.pydev.customizations' range='[7.0.3.201811082356,7.0.3.201811082356]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.python.pydev.django' range='[7.0.3.201811082356,7.0.3.201811082356]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.python.pydev.analysis' range='[7.0.3.201811082356,7.0.3.201811082356]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.python.pydev.debug' range='[7.0.3.201811082356,7.0.3.201811082356]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.python.pydev.refactoring' range='[7.0.3.201811082356,7.0.3.201811082356]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.python.pydev.shared_interactive_console' range='[7.0.3.201811082356,7.0.3.201811082356]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.python.pydev.shared_ui' range='[7.0.3.201811082356,7.0.3.201811082356]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.python.pydev.shared_core' range='[7.0.3.201811082356,7.0.3.201811082356]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.python.pydev.feature.feature.jar' range='[7.0.3.201811082356,7.0.3.201811082356]'>
+          <filter>
+            (org.eclipse.update.install.features=true)
+          </filter>
+        </required>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+      <licenses size='1'>
+        <license uri='http://www.opensource.org/licenses/eclipse-1.0.php' url='http://www.opensource.org/licenses/eclipse-1.0.php'>
+          Eclipse Public License - v 1.0&#xA;&#xA;THE ACCOMPANYING PROGRAM IS PROVIDED UNDER THE TERMS OF THIS ECLIPSE PUBLIC LICENSE (&quot;AGREEMENT&quot;). ANY USE, REPRODUCTION OR DISTRIBUTION OF THE PROGRAM CONSTITUTES RECIPIENT’S ACCEPTANCE OF THIS AGREEMENT.&#xA;&#xA;1. DEFINITIONS&#xA;&#xA;&quot;Contribution&quot; means:&#xA;&#xA;    a) in the case of the initial Contributor, the initial code and documentation distributed under this Agreement, and&#xA;    b) in the case of each subsequent Contributor:&#xA;&#xA;    i)changes to the Program, and&#xA;&#xA;    ii)additions to the Program;&#xA;&#xA;    where such changes and/or additions to the Program originate from and are distributed by that particular Contributor. A Contribution &apos;originates&apos; from a Contributor if it was added to the Program by such Contributor itself or anyone acting on such Contributor’s behalf. Contributions do not include additions to the Program which: (i) are separate modules of software distributed in conjunction with the Program under their own license agreement, and (ii) are not derivative works of the Program.&#xA;&#xA;&quot;Contributor&quot; means any person or entity that distributes the Program.&#xA;&#xA;&quot;Licensed Patents &quot; mean patent claims licensable by a Contributor which are necessarily infringed by the use or sale of its Contribution alone or when combined with the Program.&#xA;&#xA;&quot;Program&quot; means the Contributions distributed in accordance with this Agreement.&#xA;&#xA;&quot;Recipient&quot; means anyone who receives the Program under this Agreement, including all Contributors.&#xA;&#xA;2. GRANT OF RIGHTS&#xA;&#xA;a) Subject to the terms of this Agreement, each Contributor hereby grants Recipient a non-exclusive, worldwide, royalty-free copyright license to reproduce, prepare derivative works of, publicly display, publicly perform, distribute and sublicense the Contribution of such Contributor, if any, and such derivative works, in source code and object code form.&#xA;&#xA;b) Subject to the terms of this Agreement, each Contributor hereby grants Recipient a non-exclusive, worldwide, royalty-free patent license under Licensed Patents to make, use, sell, offer to sell, import and otherwise transfer the Contribution of such Contributor, if any, in source code and object code form. This patent license shall apply to the combination of the Contribution and the Program if, at the time the Contribution is added by the Contributor, such addition of the Contribution causes such combination to be covered by the Licensed Patents. The patent license shall not apply to any other combinations which include the Contribution. No hardware per se is licensed hereunder.&#xA;&#xA;c) Recipient understands that although each Contributor grants the licenses to its Contributions set forth herein, no assurances are provided by any Contributor that the Program does not infringe the patent or other intellectual property rights of any other entity. Each Contributor disclaims any liability to Recipient for claims brought by any other entity based on infringement of intellectual property rights or otherwise. As a condition to exercising the rights and licenses granted hereunder, each Recipient hereby assumes sole responsibility to secure any other intellectual property rights needed, if any. For example, if a third party patent license is required to allow Recipient to distribute the Program, it is Recipient’s responsibility to acquire that license before distributing the Program.&#xA;&#xA;d) Each Contributor represents that to its knowledge it has sufficient copyright rights in its Contribution, if any, to grant the copyright license set forth in this Agreement.&#xA;&#xA;3. REQUIREMENTS&#xA;&#xA;A Contributor may choose to distribute the Program in object code form under its own license agreement, provided that:&#xA;&#xA;    a) it complies with the terms and conditions of this Agreement; and&#xA;&#xA;    b) its license agreement:&#xA;&#xA;    i) effectively disclaims on behalf of all Contributors all warranties and conditions, express and implied, including warranties or conditions of title and non-infringement, and implied warranties or conditions of merchantability and fitness for a particular purpose;&#xA;&#xA;    ii) effectively excludes on behalf of all Contributors all liability for damages, including direct, indirect, special, incidental and consequential damages, such as lost profits;&#xA;&#xA;    iii) states that any provisions which differ from this Agreement are offered by that Contributor alone and not by any other party; and&#xA;&#xA;    iv) states that source code for the Program is available from such Contributor, and informs licensees how to obtain it in a reasonable manner on or through a medium customarily used for software exchange.&#xA;&#xA;When the Program is made available in source code form:&#xA;&#xA;    a) it must be made available under this Agreement; and&#xA;&#xA;    b) a copy of this Agreement must be included with each copy of the Program.&#xA;&#xA;Contributors may not remove or alter any copyright notices contained within the Program.&#xA;&#xA;Each Contributor must identify itself as the originator of its Contribution, if any, in a manner that reasonably allows subsequent Recipients to identify the originator of the Contribution.&#xA;&#xA;4. COMMERCIAL DISTRIBUTION&#xA;&#xA;Commercial distributors of software may accept certain responsibilities with respect to end users, business partners and the like. While this license is intended to facilitate the commercial use of the Program, the Contributor who includes the Program in a commercial product offering should do so in a manner which does not create potential liability for other Contributors. Therefore, if a Contributor includes the Program in a commercial product offering, such Contributor (&quot;Commercial Contributor&quot;) hereby agrees to defend and indemnify every other Contributor (&quot;Indemnified Contributor&quot;) against any losses, damages and costs (collectively &quot;Losses&quot;) arising from claims, lawsuits and other legal actions brought by a third party against the Indemnified Contributor to the extent caused by the acts or omissions of such Commercial Contributor in connection with its distribution of the Program in a commercial product offering. The obligations in this section do not apply to any claims or Losses relating to any actual or alleged intellectual property infringement. In order to qualify, an Indemnified Contributor must: a) promptly notify the Commercial Contributor in writing of such claim, and b) allow the Commercial Contributor to control, and cooperate with the Commercial Contributor in, the defense and any related settlement negotiations. The Indemnified Contributor may participate in any such claim at its own expense.&#xA;&#xA;For example, a Contributor might include the Program in a commercial product offering, Product X. That Contributor is then a Commercial Contributor. If that Commercial Contributor then makes performance claims, or offers warranties related to Product X, those performance claims and warranties are such Commercial Contributor’s responsibility alone. Under this section, the Commercial Contributor would have to defend claims against the other Contributors related to those performance claims and warranties, and if a court requires any other Contributor to pay any damages as a result, the Commercial Contributor must pay those damages.&#xA;&#xA;5. NO WARRANTY&#xA;&#xA;EXCEPT AS EXPRESSLY SET FORTH IN THIS AGREEMENT, THE PROGRAM IS PROVIDED ON AN &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED INCLUDING, WITHOUT LIMITATION, ANY WARRANTIES OR CONDITIONS OF TITLE, NON-INFRINGEMENT, MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. Each Recipient is solely responsible for determining the appropriateness of using and distributing the Program and assumes all risks associated with its exercise of rights under this Agreement , including but not limited to the risks and costs of program errors, compliance with applicable laws, damage to or loss of data, programs or equipment, and unavailability or interruption of operations.&#xA;&#xA;6. DISCLAIMER OF LIABILITY&#xA;&#xA;EXCEPT AS EXPRESSLY SET FORTH IN THIS AGREEMENT, NEITHER RECIPIENT NOR ANY CONTRIBUTORS SHALL HAVE ANY LIABILITY FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING WITHOUT LIMITATION LOST PROFITS), HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OR DISTRIBUTION OF THE PROGRAM OR THE EXERCISE OF ANY RIGHTS GRANTED HEREUNDER, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.&#xA;&#xA;7. GENERAL&#xA;&#xA;If any provision of this Agreement is invalid or unenforceable under applicable law, it shall not affect the validity or enforceability of the remainder of the terms of this Agreement, and without further action by the parties hereto, such provision shall be reformed to the minimum extent necessary to make such provision valid and enforceable.&#xA;&#xA;If Recipient institutes patent litigation against any entity (including a cross-claim or counterclaim in a lawsuit) alleging that the Program itself (excluding combinations of the Program with other software or hardware) infringes such Recipient’s patent(s), then such Recipient’s rights granted under Section 2(b) shall terminate as of the date such litigation is filed.&#xA;&#xA;All Recipient’s rights under this Agreement shall terminate if it fails to comply with any of the material terms or conditions of this Agreement and does not cure such failure in a reasonable period of time after becoming aware of such noncompliance. If all Recipient’s rights under this Agreement terminate, Recipient agrees to cease use and distribution of the Program as soon as reasonably practicable. However, Recipient’s obligations under this Agreement and any licenses granted by Recipient relating to the Program shall continue and survive.&#xA;&#xA;Everyone is permitted to copy and distribute copies of this Agreement, but in order to avoid inconsistency the Agreement is copyrighted and may only be modified in the following manner. The Agreement Steward reserves the right to publish new versions (including revisions) of this Agreement from time to time. No one other than the Agreement Steward has the right to modify this Agreement. The Eclipse Foundation is the initial Agreement Steward. The Eclipse Foundation may assign the responsibility to serve as the Agreement Steward to a suitable separate entity. Each new version of the Agreement will be given a distinguishing version number. The Program (including Contributions) may always be distributed subject to the version of the Agreement under which it was received. In addition, after a new version of the Agreement is published, Contributor may elect to distribute the Program (including its Contributions) under the new version. Except as expressly stated in Sections 2(a) and 2(b) above, Recipient receives no rights or licenses to the intellectual property of any Contributor under this Agreement, whether expressly, by implication, estoppel or otherwise. All rights in the Program not expressly granted under this Agreement are reserved.&#xA;&#xA;This Agreement is governed by the laws of the State of New York and the intellectual property laws of the United States of America. No party to this Agreement will bring a legal action under this Agreement more than one year after the cause of action arose. Each party waives its rights to a jury trial in any resulting litigation.
+        </license>
+      </licenses>
+      <copyright>
+        © Fabio Zadrozny.
+      </copyright>
+    </unit>
+    <unit id='org.python.pydev.feature.source.feature.group' version='7.0.3.201811082356' singleton='false'>
+      <update id='org.python.pydev.feature.source.feature.group' range='[0.0.0,7.0.3.201811082356)' severity='0'/>
+      <properties size='8'>
+        <property name='org.eclipse.equinox.p2.name' value='PyDev for Eclipse Developer Resources'/>
+        <property name='org.eclipse.equinox.p2.description' value='Python Development Environment'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Fabio Zadrozny'/>
+        <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+        <property name='maven-groupId' value='org.python.pydev'/>
+        <property name='maven-artifactId' value='org.python.pydev.feature'/>
+        <property name='maven-version' value='7.0.3-SNAPSHOT'/>
+        <property name='maven-classifier' value='sources-feature'/>
+      </properties>
+      <provides size='1'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.python.pydev.feature.source.feature.group' version='7.0.3.201811082356'/>
+      </provides>
+      <requires size='17'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.python.pydev.feature.feature.group' range='[7.0.3.201811082356,7.0.3.201811082356]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.python.pydev.core.source' range='[7.0.3.201811082356,7.0.3.201811082356]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.python.pydev.parser.source' range='[7.0.3.201811082356,7.0.3.201811082356]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.python.pydev.ast.source' range='[7.0.3.201811082356,7.0.3.201811082356]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.python.pydev.jython.source' range='[7.0.3.201811082356,7.0.3.201811082356]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.python.pydev.source' range='[7.0.3.201811082356,7.0.3.201811082356]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.python.pydev.debug.source' range='[7.0.3.201811082356,7.0.3.201811082356]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.python.pydev.refactoring.source' range='[7.0.3.201811082356,7.0.3.201811082356]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.python.pydev.customizations.source' range='[7.0.3.201811082356,7.0.3.201811082356]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.python.pydev.django.source' range='[7.0.3.201811082356,7.0.3.201811082356]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.python.pydev.analysis.source' range='[7.0.3.201811082356,7.0.3.201811082356]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.python.pydev.debug.source' range='[7.0.3.201811082356,7.0.3.201811082356]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.python.pydev.refactoring.source' range='[7.0.3.201811082356,7.0.3.201811082356]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.python.pydev.shared_interactive_console.source' range='[7.0.3.201811082356,7.0.3.201811082356]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.python.pydev.shared_ui.source' range='[7.0.3.201811082356,7.0.3.201811082356]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.python.pydev.shared_core.source' range='[7.0.3.201811082356,7.0.3.201811082356]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.python.pydev.feature.source.feature.jar' range='[7.0.3.201811082356,7.0.3.201811082356]'>
+          <filter>
+            (org.eclipse.update.install.features=true)
+          </filter>
+        </required>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+      <licenses size='1'>
+        <license uri='http://www.opensource.org/licenses/eclipse-1.0.php' url='http://www.opensource.org/licenses/eclipse-1.0.php'>
+          Eclipse Public License - v 1.0&#xA;&#xA;THE ACCOMPANYING PROGRAM IS PROVIDED UNDER THE TERMS OF THIS ECLIPSE PUBLIC LICENSE (&amp;quot;AGREEMENT&amp;quot;). ANY USE, REPRODUCTION OR DISTRIBUTION OF THE PROGRAM CONSTITUTES RECIPIENT’S ACCEPTANCE OF THIS AGREEMENT.&#xA;&#xA;1. DEFINITIONS&#xA;&#xA;&amp;quot;Contribution&amp;quot; means:&#xA;&#xA;    a) in the case of the initial Contributor, the initial code and documentation distributed under this Agreement, and&#xA;    b) in the case of each subsequent Contributor:&#xA;&#xA;    i)changes to the Program, and&#xA;&#xA;    ii)additions to the Program;&#xA;&#xA;    where such changes and/or additions to the Program originate from and are distributed by that particular Contributor. A Contribution &amp;apos;originates&amp;apos; from a Contributor if it was added to the Program by such Contributor itself or anyone acting on such Contributor’s behalf. Contributions do not include additions to the Program which: (i) are separate modules of software distributed in conjunction with the Program under their own license agreement, and (ii) are not derivative works of the Program.&#xA;&#xA;&amp;quot;Contributor&amp;quot; means any person or entity that distributes the Program.&#xA;&#xA;&amp;quot;Licensed Patents &amp;quot; mean patent claims licensable by a Contributor which are necessarily infringed by the use or sale of its Contribution alone or when combined with the Program.&#xA;&#xA;&amp;quot;Program&amp;quot; means the Contributions distributed in accordance with this Agreement.&#xA;&#xA;&amp;quot;Recipient&amp;quot; means anyone who receives the Program under this Agreement, including all Contributors.&#xA;&#xA;2. GRANT OF RIGHTS&#xA;&#xA;a) Subject to the terms of this Agreement, each Contributor hereby grants Recipient a non-exclusive, worldwide, royalty-free copyright license to reproduce, prepare derivative works of, publicly display, publicly perform, distribute and sublicense the Contribution of such Contributor, if any, and such derivative works, in source code and object code form.&#xA;&#xA;b) Subject to the terms of this Agreement, each Contributor hereby grants Recipient a non-exclusive, worldwide, royalty-free patent license under Licensed Patents to make, use, sell, offer to sell, import and otherwise transfer the Contribution of such Contributor, if any, in source code and object code form. This patent license shall apply to the combination of the Contribution and the Program if, at the time the Contribution is added by the Contributor, such addition of the Contribution causes such combination to be covered by the Licensed Patents. The patent license shall not apply to any other combinations which include the Contribution. No hardware per se is licensed hereunder.&#xA;&#xA;c) Recipient understands that although each Contributor grants the licenses to its Contributions set forth herein, no assurances are provided by any Contributor that the Program does not infringe the patent or other intellectual property rights of any other entity. Each Contributor disclaims any liability to Recipient for claims brought by any other entity based on infringement of intellectual property rights or otherwise. As a condition to exercising the rights and licenses granted hereunder, each Recipient hereby assumes sole responsibility to secure any other intellectual property rights needed, if any. For example, if a third party patent license is required to allow Recipient to distribute the Program, it is Recipient’s responsibility to acquire that license before distributing the Program.&#xA;&#xA;d) Each Contributor represents that to its knowledge it has sufficient copyright rights in its Contribution, if any, to grant the copyright license set forth in this Agreement.&#xA;&#xA;3. REQUIREMENTS&#xA;&#xA;A Contributor may choose to distribute the Program in object code form under its own license agreement, provided that:&#xA;&#xA;    a) it complies with the terms and conditions of this Agreement; and&#xA;&#xA;    b) its license agreement:&#xA;&#xA;    i) effectively disclaims on behalf of all Contributors all warranties and conditions, express and implied, including warranties or conditions of title and non-infringement, and implied warranties or conditions of merchantability and fitness for a particular purpose;&#xA;&#xA;    ii) effectively excludes on behalf of all Contributors all liability for damages, including direct, indirect, special, incidental and consequential damages, such as lost profits;&#xA;&#xA;    iii) states that any provisions which differ from this Agreement are offered by that Contributor alone and not by any other party; and&#xA;&#xA;    iv) states that source code for the Program is available from such Contributor, and informs licensees how to obtain it in a reasonable manner on or through a medium customarily used for software exchange.&#xA;&#xA;When the Program is made available in source code form:&#xA;&#xA;    a) it must be made available under this Agreement; and&#xA;&#xA;    b) a copy of this Agreement must be included with each copy of the Program.&#xA;&#xA;Contributors may not remove or alter any copyright notices contained within the Program.&#xA;&#xA;Each Contributor must identify itself as the originator of its Contribution, if any, in a manner that reasonably allows subsequent Recipients to identify the originator of the Contribution.&#xA;&#xA;4. COMMERCIAL DISTRIBUTION&#xA;&#xA;Commercial distributors of software may accept certain responsibilities with respect to end users, business partners and the like. While this license is intended to facilitate the commercial use of the Program, the Contributor who includes the Program in a commercial product offering should do so in a manner which does not create potential liability for other Contributors. Therefore, if a Contributor includes the Program in a commercial product offering, such Contributor (&amp;quot;Commercial Contributor&amp;quot;) hereby agrees to defend and indemnify every other Contributor (&amp;quot;Indemnified Contributor&amp;quot;) against any losses, damages and costs (collectively &amp;quot;Losses&amp;quot;) arising from claims, lawsuits and other legal actions brought by a third party against the Indemnified Contributor to the extent caused by the acts or omissions of such Commercial Contributor in connection with its distribution of the Program in a commercial product offering. The obligations in this section do not apply to any claims or Losses relating to any actual or alleged intellectual property infringement. In order to qualify, an Indemnified Contributor must: a) promptly notify the Commercial Contributor in writing of such claim, and b) allow the Commercial Contributor to control, and cooperate with the Commercial Contributor in, the defense and any related settlement negotiations. The Indemnified Contributor may participate in any such claim at its own expense.&#xA;&#xA;For example, a Contributor might include the Program in a commercial product offering, Product X. That Contributor is then a Commercial Contributor. If that Commercial Contributor then makes performance claims, or offers warranties related to Product X, those performance claims and warranties are such Commercial Contributor’s responsibility alone. Under this section, the Commercial Contributor would have to defend claims against the other Contributors related to those performance claims and warranties, and if a court requires any other Contributor to pay any damages as a result, the Commercial Contributor must pay those damages.&#xA;&#xA;5. NO WARRANTY&#xA;&#xA;EXCEPT AS EXPRESSLY SET FORTH IN THIS AGREEMENT, THE PROGRAM IS PROVIDED ON AN &amp;quot;AS IS&amp;quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED INCLUDING, WITHOUT LIMITATION, ANY WARRANTIES OR CONDITIONS OF TITLE, NON-INFRINGEMENT, MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. Each Recipient is solely responsible for determining the appropriateness of using and distributing the Program and assumes all risks associated with its exercise of rights under this Agreement , including but not limited to the risks and costs of program errors, compliance with applicable laws, damage to or loss of data, programs or equipment, and unavailability or interruption of operations.&#xA;&#xA;6. DISCLAIMER OF LIABILITY&#xA;&#xA;EXCEPT AS EXPRESSLY SET FORTH IN THIS AGREEMENT, NEITHER RECIPIENT NOR ANY CONTRIBUTORS SHALL HAVE ANY LIABILITY FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING WITHOUT LIMITATION LOST PROFITS), HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OR DISTRIBUTION OF THE PROGRAM OR THE EXERCISE OF ANY RIGHTS GRANTED HEREUNDER, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.&#xA;&#xA;7. GENERAL&#xA;&#xA;If any provision of this Agreement is invalid or unenforceable under applicable law, it shall not affect the validity or enforceability of the remainder of the terms of this Agreement, and without further action by the parties hereto, such provision shall be reformed to the minimum extent necessary to make such provision valid and enforceable.&#xA;&#xA;If Recipient institutes patent litigation against any entity (including a cross-claim or counterclaim in a lawsuit) alleging that the Program itself (excluding combinations of the Program with other software or hardware) infringes such Recipient’s patent(s), then such Recipient’s rights granted under Section 2(b) shall terminate as of the date such litigation is filed.&#xA;&#xA;All Recipient’s rights under this Agreement shall terminate if it fails to comply with any of the material terms or conditions of this Agreement and does not cure such failure in a reasonable period of time after becoming aware of such noncompliance. If all Recipient’s rights under this Agreement terminate, Recipient agrees to cease use and distribution of the Program as soon as reasonably practicable. However, Recipient’s obligations under this Agreement and any licenses granted by Recipient relating to the Program shall continue and survive.&#xA;&#xA;Everyone is permitted to copy and distribute copies of this Agreement, but in order to avoid inconsistency the Agreement is copyrighted and may only be modified in the following manner. The Agreement Steward reserves the right to publish new versions (including revisions) of this Agreement from time to time. No one other than the Agreement Steward has the right to modify this Agreement. The Eclipse Foundation is the initial Agreement Steward. The Eclipse Foundation may assign the responsibility to serve as the Agreement Steward to a suitable separate entity. Each new version of the Agreement will be given a distinguishing version number. The Program (including Contributions) may always be distributed subject to the version of the Agreement under which it was received. In addition, after a new version of the Agreement is published, Contributor may elect to distribute the Program (including its Contributions) under the new version. Except as expressly stated in Sections 2(a) and 2(b) above, Recipient receives no rights or licenses to the intellectual property of any Contributor under this Agreement, whether expressly, by implication, estoppel or otherwise. All rights in the Program not expressly granted under this Agreement are reserved.&#xA;&#xA;This Agreement is governed by the laws of the State of New York and the intellectual property laws of the United States of America. No party to this Agreement will bring a legal action under this Agreement more than one year after the cause of action arose. Each party waives its rights to a jury trial in any resulting litigation.
+        </license>
+      </licenses>
+      <copyright>
+        © Fabio Zadrozny.
+      </copyright>
+    </unit>
+    <unit id='org.python.pydev.core.source' version='7.0.3.201811082356' singleton='false'>
+      <update id='org.python.pydev.core.source' range='[0.0.0,7.0.3.201811082356)' severity='0'/>
+      <properties size='9'>
+        <property name='df_LT.bundleVendor' value='Brainwy Software Ltda'/>
+        <property name='df_LT.bundleName' value='Core Plug-in Source'/>
+        <property name='org.eclipse.equinox.p2.name' value='%bundleName'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%bundleVendor'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='OSGI-INF/l10n/bundle-src'/>
+        <property name='maven-groupId' value='org.python.pydev'/>
+        <property name='maven-artifactId' value='org.python.pydev.core'/>
+        <property name='maven-version' value='7.0.3-SNAPSHOT'/>
+        <property name='maven-classifier' value='sources'/>
+      </properties>
+      <provides size='4'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.python.pydev.core.source' version='7.0.3.201811082356'/>
+        <provided namespace='osgi.bundle' name='org.python.pydev.core.source' version='7.0.3.201811082356'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='source' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.python.pydev.core.source' version='7.0.3.201811082356'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.python.pydev.core.source&#xA;Bundle-Version: 7.0.3.201811082356
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.python.pydev.ast' version='7.0.3.201811082356'>
+      <update id='org.python.pydev.ast' range='[0.0.0,7.0.3.201811082356)' severity='0'/>
+      <properties size='5'>
+        <property name='org.eclipse.equinox.p2.name' value='Ast Plug-in'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Brainwy Software Ltda'/>
+        <property name='maven-groupId' value='org.python.pydev'/>
+        <property name='maven-artifactId' value='org.python.pydev.ast'/>
+        <property name='maven-version' value='7.0.3-SNAPSHOT'/>
+      </properties>
+      <provides size='23'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.python.pydev.ast' version='7.0.3.201811082356'/>
+        <provided namespace='osgi.bundle' name='org.python.pydev.ast' version='7.0.3.201811082356'/>
+        <provided namespace='java.package' name='org.python.pydev.ast' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.ast.analysis' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.ast.analysis.messages' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.ast.builder' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.ast.codecompletion' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.ast.codecompletion.revisited' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.ast.codecompletion.revisited.modules' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.ast.codecompletion.revisited.visitors' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.ast.codecompletion.shell' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.ast.formatter' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.ast.interpreter_managers' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.ast.item_pointer' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.ast.listing_utils' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.ast.location' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.ast.refactoring' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.ast.runners' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.ast.simpleassist' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.core.pep8' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.plugin' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.plugin.nature' version='0.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='7'>
+        <required namespace='osgi.bundle' name='org.eclipse.core.resources' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.python.pydev.core' range='[7.0.3,7.0.4)'/>
+        <required namespace='osgi.bundle' name='org.eclipse.text' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.python.pydev.parser' range='[7.0.3,7.0.4)'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.variables' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.debug.core' range='0.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.python.pydev.ast' version='7.0.3.201811082356'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='2'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.python.pydev.ast; singleton:=true&#xA;Bundle-Version: 7.0.3.201811082356
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.python.pydev.mylyn.feature.feature.group' version='0.6.0' singleton='false'>
+      <update id='org.python.pydev.mylyn.feature.feature.group' range='[0.0.0,0.6.0)' severity='0'/>
+      <properties size='7'>
+        <property name='org.eclipse.equinox.p2.name' value='Pydev Mylyn Integration'/>
+        <property name='org.eclipse.equinox.p2.description' value='Integration of Mylyn with Pydev.'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Fabio Zadrozny'/>
+        <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+        <property name='maven-groupId' value='org.python.pydev'/>
+        <property name='maven-artifactId' value='org.python.pydev.mylyn.feature'/>
+        <property name='maven-version' value='0.6.0'/>
+      </properties>
+      <provides size='1'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.python.pydev.mylyn.feature.feature.group' version='0.6.0'/>
+      </provides>
+      <requires size='13'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.python.pydev' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ui.ide' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.core.runtime' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ui' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.core.resources' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ui.navigator' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ui.views' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.mylyn.context.core' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.mylyn.context.ui' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.mylyn.ide.ui' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.mylyn.resources.ui' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.python.pydev.mylyn' range='[0.6.0,0.6.0]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.python.pydev.mylyn.feature.feature.jar' range='[0.6.0,0.6.0]'>
+          <filter>
+            (org.eclipse.update.install.features=true)
+          </filter>
+        </required>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+      <licenses size='1'>
+        <license uri='http://www.opensource.org/licenses/eclipse-1.0.php' url='http://www.opensource.org/licenses/eclipse-1.0.php'>
+          Eclipse Public License
+        </license>
+      </licenses>
+      <copyright>
+        (c) Fabio Zadrozny
+      </copyright>
+    </unit>
+    <unit id='com.python.pydev.refactoring' version='7.0.3.201811082356'>
+      <update id='com.python.pydev.refactoring' range='[0.0.0,7.0.3.201811082356)' severity='0'/>
+      <properties size='6'>
+        <property name='org.eclipse.equinox.p2.name' value='Refactoring Plug-in'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Brainwy Software Ltda'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='plugin'/>
+        <property name='maven-groupId' value='org.python.pydev'/>
+        <property name='maven-artifactId' value='com.python.pydev.refactoring'/>
+        <property name='maven-version' value='7.0.3-SNAPSHOT'/>
+      </properties>
+      <provides size='13'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.python.pydev.refactoring' version='7.0.3.201811082356'/>
+        <provided namespace='osgi.bundle' name='com.python.pydev.refactoring' version='7.0.3.201811082356'/>
+        <provided namespace='java.package' name='com.python.pydev.codecompletion' version='0.0.0'/>
+        <provided namespace='java.package' name='com.python.pydev.refactoring.actions' version='0.0.0'/>
+        <provided namespace='java.package' name='com.python.pydev.refactoring.hyperlink' version='0.0.0'/>
+        <provided namespace='java.package' name='com.python.pydev.refactoring.markoccurrences' version='0.0.0'/>
+        <provided namespace='java.package' name='com.python.pydev.refactoring.refactorer.search' version='0.0.0'/>
+        <provided namespace='java.package' name='com.python.pydev.refactoring.refactorer.search.copied' version='0.0.0'/>
+        <provided namespace='java.package' name='com.python.pydev.refactoring.search' version='0.0.0'/>
+        <provided namespace='java.package' name='com.python.pydev.refactoring.tdd' version='0.0.0'/>
+        <provided namespace='java.package' name='com.python.pydev.refactoring.ui' version='0.0.0'/>
+        <provided namespace='java.package' name='com.python.pydev.refactoring.ui.findreplace' version='0.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='20'>
+        <required namespace='osgi.bundle' name='org.eclipse.ui' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui.editors' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui.ide' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui.workbench.texteditor' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.jface.text' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.python.pydev.ast' range='[7.0.3,7.0.4)'/>
+        <required namespace='osgi.bundle' name='org.python.pydev' range='[7.0.3,7.0.4)'/>
+        <required namespace='osgi.bundle' name='org.junit' range='4.0.0' optional='true' greedy='false'/>
+        <required namespace='osgi.bundle' name='org.eclipse.search' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.python.pydev.shared_ui' range='[7.0.3,7.0.4)'/>
+        <required namespace='osgi.bundle' name='org.python.pydev.core' range='[7.0.3,7.0.4)'/>
+        <required namespace='osgi.bundle' name='org.python.pydev.parser' range='[7.0.3,7.0.4)'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.resources' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ltk.core.refactoring' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ltk.ui.refactoring' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.python.pydev.refactoring' range='[7.0.3,7.0.4)'/>
+        <required namespace='osgi.bundle' name='com.python.pydev.analysis' range='[7.0.3,7.0.4)'/>
+        <required namespace='osgi.bundle' name='org.eclipse.jdt.core' range='0.0.0' optional='true' greedy='false'/>
+        <required namespace='osgi.bundle' name='org.eclipse.jdt.ui' range='0.0.0' optional='true' greedy='false'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.python.pydev.refactoring' version='7.0.3.201811082356'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='2'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.python.pydev.refactoring; singleton:=true&#xA;Bundle-Version: 7.0.3.201811082356
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.python.pydev.mylyn.feature.feature.jar' version='0.6.0'>
+      <properties size='6'>
+        <property name='org.eclipse.equinox.p2.name' value='Pydev Mylyn Integration'/>
+        <property name='org.eclipse.equinox.p2.description' value='Integration of Mylyn with Pydev.'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Fabio Zadrozny'/>
+        <property name='maven-groupId' value='org.python.pydev'/>
+        <property name='maven-artifactId' value='org.python.pydev.mylyn.feature'/>
+        <property name='maven-version' value='0.6.0'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.python.pydev.mylyn.feature.feature.jar' version='0.6.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
+        <provided namespace='org.eclipse.update.feature' name='org.python.pydev.mylyn.feature' version='0.6.0'/>
+      </provides>
+      <filter>
+        (org.eclipse.update.install.features=true)
+      </filter>
+      <artifacts size='1'>
+        <artifact classifier='org.eclipse.update.feature' id='org.python.pydev.mylyn.feature' version='0.6.0'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+        </instructions>
+      </touchpointData>
+      <licenses size='1'>
+        <license uri='http://www.opensource.org/licenses/eclipse-1.0.php' url='http://www.opensource.org/licenses/eclipse-1.0.php'>
+          Eclipse Public License
+        </license>
+      </licenses>
+      <copyright>
+        (c) Fabio Zadrozny
+      </copyright>
+    </unit>
+    <unit id='org.python.pydev.ast.source' version='7.0.3.201811082356' singleton='false'>
+      <update id='org.python.pydev.ast.source' range='[0.0.0,7.0.3.201811082356)' severity='0'/>
+      <properties size='9'>
+        <property name='df_LT.bundleVendor' value='Brainwy Software Ltda'/>
+        <property name='df_LT.bundleName' value='Ast Plug-in Source'/>
+        <property name='org.eclipse.equinox.p2.name' value='%bundleName'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%bundleVendor'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='OSGI-INF/l10n/bundle-src'/>
+        <property name='maven-groupId' value='org.python.pydev'/>
+        <property name='maven-artifactId' value='org.python.pydev.ast'/>
+        <property name='maven-version' value='7.0.3-SNAPSHOT'/>
+        <property name='maven-classifier' value='sources'/>
+      </properties>
+      <provides size='4'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.python.pydev.ast.source' version='7.0.3.201811082356'/>
+        <provided namespace='osgi.bundle' name='org.python.pydev.ast.source' version='7.0.3.201811082356'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='source' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.python.pydev.ast.source' version='7.0.3.201811082356'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.python.pydev.ast.source&#xA;Bundle-Version: 7.0.3.201811082356
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='201811082356.PyDev Mylyn Integration' version='1.0.0.07A-cLFio6'>
+      <properties size='3'>
+        <property name='org.eclipse.equinox.p2.name' value='PyDev Mylyn Integration (optional)'/>
+        <property name='org.eclipse.equinox.p2.description' value='Optional extensions to PyDev (requires mylyn)'/>
+        <property name='org.eclipse.equinox.p2.type.category' value='true'/>
+      </properties>
+      <provides size='1'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='201811082356.PyDev Mylyn Integration' version='1.0.0.07A-cLFio6'/>
+      </provides>
+      <requires size='1'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.python.pydev.mylyn.feature.feature.group' range='[0.6.0,0.6.0]'/>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+    </unit>
+    <unit id='org.python.pydev.parser' version='7.0.3.201811082356'>
+      <update id='org.python.pydev.parser' range='[0.0.0,7.0.3.201811082356)' severity='0'/>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='Parser Plug-in'/>
+        <property name='maven-groupId' value='org.python.pydev'/>
+        <property name='maven-artifactId' value='org.python.pydev.parser'/>
+        <property name='maven-version' value='7.0.3-SNAPSHOT'/>
+      </properties>
+      <provides size='22'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.python.pydev.parser' version='7.0.3.201811082356'/>
+        <provided namespace='osgi.bundle' name='org.python.pydev.parser' version='7.0.3.201811082356'/>
+        <provided namespace='java.package' name='org.python.pydev.parser' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.parser.fastparser' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.parser.fastparser.grammar_fstrings_common' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.parser.grammar25' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.parser.grammar26' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.parser.grammar27' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.parser.grammar30' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.parser.grammar36' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.parser.grammar_fstrings' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.parser.grammarcommon' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.parser.jython' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.parser.jython.ast' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.parser.jython.ast.factory' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.parser.preferences' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.parser.prettyprinter' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.parser.prettyprinterv2' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.parser.visitors' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.parser.visitors.comparator' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.parser.visitors.scope' version='0.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='5'>
+        <required namespace='osgi.bundle' name='org.junit' range='4.0.0' optional='true' greedy='false'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.resources' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.text' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.python.pydev.core' range='[7.0.3,7.0.4)'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.python.pydev.parser' version='7.0.3.201811082356'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='2'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.python.pydev.parser; singleton:=true&#xA;Bundle-Version: 7.0.3.201811082356
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.python.pydev.debug.source' version='7.0.3.201811082356' singleton='false'>
+      <update id='com.python.pydev.debug.source' range='[0.0.0,7.0.3.201811082356)' severity='0'/>
+      <properties size='9'>
+        <property name='df_LT.bundleVendor' value='Brainwy Software Ltda'/>
+        <property name='df_LT.bundleName' value='Extensions Debug Plug-in Source'/>
+        <property name='org.eclipse.equinox.p2.name' value='%bundleName'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%bundleVendor'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='OSGI-INF/l10n/bundle-src'/>
+        <property name='maven-groupId' value='org.python.pydev'/>
+        <property name='maven-artifactId' value='com.python.pydev.debug'/>
+        <property name='maven-version' value='7.0.3-SNAPSHOT'/>
+        <property name='maven-classifier' value='sources'/>
+      </properties>
+      <provides size='4'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.python.pydev.debug.source' version='7.0.3.201811082356'/>
+        <provided namespace='osgi.bundle' name='com.python.pydev.debug.source' version='7.0.3.201811082356'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='source' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.python.pydev.debug.source' version='7.0.3.201811082356'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.python.pydev.debug.source&#xA;Bundle-Version: 7.0.3.201811082356
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.python.pydev.customizations.source' version='7.0.3.201811082356' singleton='false'>
+      <update id='org.python.pydev.customizations.source' range='[0.0.0,7.0.3.201811082356)' severity='0'/>
+      <properties size='9'>
+        <property name='df_LT.bundleVendor' value='Brainwy Software Ltda'/>
+        <property name='df_LT.bundleName' value='Customizations Plug-in Source'/>
+        <property name='org.eclipse.equinox.p2.name' value='%bundleName'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%bundleVendor'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='OSGI-INF/l10n/bundle-src'/>
+        <property name='maven-groupId' value='org.python.pydev'/>
+        <property name='maven-artifactId' value='org.python.pydev.customizations'/>
+        <property name='maven-version' value='7.0.3-SNAPSHOT'/>
+        <property name='maven-classifier' value='sources'/>
+      </properties>
+      <provides size='4'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.python.pydev.customizations.source' version='7.0.3.201811082356'/>
+        <provided namespace='osgi.bundle' name='org.python.pydev.customizations.source' version='7.0.3.201811082356'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='source' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.python.pydev.customizations.source' version='7.0.3.201811082356'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.python.pydev.customizations.source&#xA;Bundle-Version: 7.0.3.201811082356
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.python.pydev.mylyn' version='0.6.0'>
+      <update id='org.python.pydev.mylyn' range='[0.0.0,0.6.0)' severity='0'/>
+      <properties size='6'>
+        <property name='org.eclipse.equinox.p2.name' value='Pydev Mylyn Integration Plug-in'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Fabio Zadrozny'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='plugin'/>
+        <property name='maven-groupId' value='org.python.pydev'/>
+        <property name='maven-artifactId' value='org.python.pydev.mylyn'/>
+        <property name='maven-version' value='0.6.0'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.python.pydev.mylyn' version='0.6.0'/>
+        <provided namespace='osgi.bundle' name='org.python.pydev.mylyn' version='0.6.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='12'>
+        <required namespace='osgi.bundle' name='org.eclipse.ui.ide' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.resources' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui.navigator' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui.views' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.mylyn.context.core' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.mylyn.context.ui' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.mylyn.resources.ui' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.python.pydev' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.jface.text' range='0.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.python.pydev.mylyn' version='0.6.0'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='2'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.python.pydev.mylyn;singleton:=true&#xA;Bundle-Version: 0.6.0
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.python.pydev.source' version='7.0.3.201811082356' singleton='false'>
+      <update id='org.python.pydev.source' range='[0.0.0,7.0.3.201811082356)' severity='0'/>
+      <properties size='9'>
+        <property name='df_LT.bundleVendor' value='Brainwy Software Ltda'/>
+        <property name='df_LT.bundleName' value='PyDev - Python Development Environment Source'/>
+        <property name='org.eclipse.equinox.p2.name' value='%bundleName'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%bundleVendor'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='OSGI-INF/l10n/bundle-src'/>
+        <property name='maven-groupId' value='org.python.pydev'/>
+        <property name='maven-artifactId' value='org.python.pydev'/>
+        <property name='maven-version' value='7.0.3-SNAPSHOT'/>
+        <property name='maven-classifier' value='sources'/>
+      </properties>
+      <provides size='4'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.python.pydev.source' version='7.0.3.201811082356'/>
+        <provided namespace='osgi.bundle' name='org.python.pydev.source' version='7.0.3.201811082356'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='source' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.python.pydev.source' version='7.0.3.201811082356'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.python.pydev.source&#xA;Bundle-Version: 7.0.3.201811082356
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.python.pydev.refactoring' version='7.0.3.201811082356'>
+      <update id='org.python.pydev.refactoring' range='[0.0.0,7.0.3.201811082356)' severity='0'/>
+      <properties size='8'>
+        <property name='df_LT.peptic.providerName' value='Aptana'/>
+        <property name='df_LT.peptic.pluginName' value='Python Refactoring Plug-In'/>
+        <property name='org.eclipse.equinox.p2.name' value='%peptic.pluginName'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%peptic.providerName'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='plugin'/>
+        <property name='maven-groupId' value='org.python.pydev'/>
+        <property name='maven-artifactId' value='org.python.pydev.refactoring'/>
+        <property name='maven-version' value='7.0.3-SNAPSHOT'/>
+      </properties>
+      <provides size='47'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.python.pydev.refactoring' version='7.0.3.201811082356'/>
+        <provided namespace='osgi.bundle' name='org.python.pydev.refactoring' version='7.0.3.201811082356'/>
+        <provided namespace='java.package' name='org.python.pydev.refactoring' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.refactoring.ast' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.refactoring.ast.adapters' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.refactoring.ast.adapters.offsetstrategy' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.refactoring.ast.visitors' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.refactoring.ast.visitors.context' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.refactoring.ast.visitors.info' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.refactoring.ast.visitors.position' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.refactoring.ast.visitors.renamer' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.refactoring.ast.visitors.rewriter' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.refactoring.ast.visitors.selection' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.refactoring.codegenerator.constructorfield' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.refactoring.codegenerator.constructorfield.edit' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.refactoring.codegenerator.constructorfield.request' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.refactoring.codegenerator.generateproperties' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.refactoring.codegenerator.generateproperties.edit' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.refactoring.codegenerator.generateproperties.request' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.refactoring.codegenerator.overridemethods' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.refactoring.codegenerator.overridemethods.edit' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.refactoring.codegenerator.overridemethods.request' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.refactoring.coderefactoring.extractlocal' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.refactoring.coderefactoring.extractlocal.edit' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.refactoring.coderefactoring.extractlocal.request' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.refactoring.coderefactoring.extractmethod' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.refactoring.coderefactoring.extractmethod.edit' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.refactoring.coderefactoring.extractmethod.request' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.refactoring.coderefactoring.inlinelocal' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.refactoring.coderefactoring.inlinelocal.edit' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.refactoring.coderefactoring.inlinelocal.request' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.refactoring.core.base' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.refactoring.core.change' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.refactoring.core.edit' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.refactoring.core.model' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.refactoring.core.model.constructorfield' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.refactoring.core.model.generateproperties' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.refactoring.core.model.overridemethods' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.refactoring.core.model.tree' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.refactoring.core.request' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.refactoring.core.validator' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.refactoring.messages' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.refactoring.ui.actions' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.refactoring.ui.actions.internal' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.refactoring.ui.pages.core.eclipse' version='0.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+      </provides>
+      <requires size='16'>
+        <required namespace='osgi.bundle' name='org.eclipse.ui' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.python.pydev.core' range='[7.0.3,7.0.4)'/>
+        <required namespace='osgi.bundle' name='org.python.pydev.parser' range='[7.0.3,7.0.4)'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ltk.core.refactoring' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ltk.ui.refactoring' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.resources' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.jface.text' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui.ide' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui.workbench.texteditor' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui.editors' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.python.pydev.ast' range='[7.0.3,7.0.4)'/>
+        <required namespace='osgi.bundle' name='org.python.pydev' range='[7.0.3,7.0.4)'/>
+        <required namespace='osgi.bundle' name='org.eclipse.compare' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.python.pydev.shared_ui' range='[7.0.3,7.0.4)'/>
+        <required namespace='osgi.bundle' name='org.junit' range='4.0.0' optional='true' greedy='false'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.python.pydev.refactoring' version='7.0.3.201811082356'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='2'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.python.pydev.refactoring;singleton:=true&#xA;Bundle-Version: 7.0.3.201811082356
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.python.pydev.jython' version='7.0.3.201811082356'>
+      <update id='org.python.pydev.jython' range='[0.0.0,7.0.3.201811082356)' severity='0'/>
+      <properties size='5'>
+        <property name='org.eclipse.equinox.p2.name' value='Jython Plug-in'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Brainwy Software Ltda'/>
+        <property name='maven-groupId' value='org.python.pydev'/>
+        <property name='maven-artifactId' value='org.python.pydev.jython'/>
+        <property name='maven-version' value='7.0.3-SNAPSHOT'/>
+      </properties>
+      <provides size='6'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.python.pydev.jython' version='7.0.3.201811082356'/>
+        <provided namespace='osgi.bundle' name='org.python.pydev.jython' version='7.0.3.201811082356'/>
+        <provided namespace='java.package' name='org.python.core' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.jython' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.jython.ui' version='0.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='7'>
+        <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.python.pydev.core' range='[7.0.3,7.0.4)'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui.console' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.jface.text' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.junit' range='4.0.0' optional='true' greedy='false'/>
+        <required namespace='osgi.bundle' name='org.python.pydev.shared_ui' range='[7.0.3,7.0.4)'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.python.pydev.jython' version='7.0.3.201811082356'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='2'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.python.pydev.jython; singleton:=true&#xA;Bundle-Version: 7.0.3.201811082356
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.python.pydev.feature.source.feature.jar' version='7.0.3.201811082356'>
+      <properties size='8'>
+        <property name='org.eclipse.equinox.p2.name' value='PyDev for Eclipse Developer Resources'/>
+        <property name='org.eclipse.equinox.p2.description' value='Python Development Environment'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Fabio Zadrozny'/>
+        <property name='org.eclipse.update.feature.plugin' value='org.python.pydev'/>
+        <property name='maven-groupId' value='org.python.pydev'/>
+        <property name='maven-artifactId' value='org.python.pydev.feature'/>
+        <property name='maven-version' value='7.0.3-SNAPSHOT'/>
+        <property name='maven-classifier' value='sources-feature'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.python.pydev.feature.source.feature.jar' version='7.0.3.201811082356'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
+        <provided namespace='org.eclipse.update.feature' name='org.python.pydev.feature.source' version='7.0.3.201811082356'/>
+      </provides>
+      <filter>
+        (org.eclipse.update.install.features=true)
+      </filter>
+      <artifacts size='1'>
+        <artifact classifier='org.eclipse.update.feature' id='org.python.pydev.feature.source' version='7.0.3.201811082356'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+        </instructions>
+      </touchpointData>
+      <licenses size='1'>
+        <license uri='http://www.opensource.org/licenses/eclipse-1.0.php' url='http://www.opensource.org/licenses/eclipse-1.0.php'>
+          Eclipse Public License - v 1.0&#xA;&#xA;THE ACCOMPANYING PROGRAM IS PROVIDED UNDER THE TERMS OF THIS ECLIPSE PUBLIC LICENSE (&amp;quot;AGREEMENT&amp;quot;). ANY USE, REPRODUCTION OR DISTRIBUTION OF THE PROGRAM CONSTITUTES RECIPIENT’S ACCEPTANCE OF THIS AGREEMENT.&#xA;&#xA;1. DEFINITIONS&#xA;&#xA;&amp;quot;Contribution&amp;quot; means:&#xA;&#xA;    a) in the case of the initial Contributor, the initial code and documentation distributed under this Agreement, and&#xA;    b) in the case of each subsequent Contributor:&#xA;&#xA;    i)changes to the Program, and&#xA;&#xA;    ii)additions to the Program;&#xA;&#xA;    where such changes and/or additions to the Program originate from and are distributed by that particular Contributor. A Contribution &amp;apos;originates&amp;apos; from a Contributor if it was added to the Program by such Contributor itself or anyone acting on such Contributor’s behalf. Contributions do not include additions to the Program which: (i) are separate modules of software distributed in conjunction with the Program under their own license agreement, and (ii) are not derivative works of the Program.&#xA;&#xA;&amp;quot;Contributor&amp;quot; means any person or entity that distributes the Program.&#xA;&#xA;&amp;quot;Licensed Patents &amp;quot; mean patent claims licensable by a Contributor which are necessarily infringed by the use or sale of its Contribution alone or when combined with the Program.&#xA;&#xA;&amp;quot;Program&amp;quot; means the Contributions distributed in accordance with this Agreement.&#xA;&#xA;&amp;quot;Recipient&amp;quot; means anyone who receives the Program under this Agreement, including all Contributors.&#xA;&#xA;2. GRANT OF RIGHTS&#xA;&#xA;a) Subject to the terms of this Agreement, each Contributor hereby grants Recipient a non-exclusive, worldwide, royalty-free copyright license to reproduce, prepare derivative works of, publicly display, publicly perform, distribute and sublicense the Contribution of such Contributor, if any, and such derivative works, in source code and object code form.&#xA;&#xA;b) Subject to the terms of this Agreement, each Contributor hereby grants Recipient a non-exclusive, worldwide, royalty-free patent license under Licensed Patents to make, use, sell, offer to sell, import and otherwise transfer the Contribution of such Contributor, if any, in source code and object code form. This patent license shall apply to the combination of the Contribution and the Program if, at the time the Contribution is added by the Contributor, such addition of the Contribution causes such combination to be covered by the Licensed Patents. The patent license shall not apply to any other combinations which include the Contribution. No hardware per se is licensed hereunder.&#xA;&#xA;c) Recipient understands that although each Contributor grants the licenses to its Contributions set forth herein, no assurances are provided by any Contributor that the Program does not infringe the patent or other intellectual property rights of any other entity. Each Contributor disclaims any liability to Recipient for claims brought by any other entity based on infringement of intellectual property rights or otherwise. As a condition to exercising the rights and licenses granted hereunder, each Recipient hereby assumes sole responsibility to secure any other intellectual property rights needed, if any. For example, if a third party patent license is required to allow Recipient to distribute the Program, it is Recipient’s responsibility to acquire that license before distributing the Program.&#xA;&#xA;d) Each Contributor represents that to its knowledge it has sufficient copyright rights in its Contribution, if any, to grant the copyright license set forth in this Agreement.&#xA;&#xA;3. REQUIREMENTS&#xA;&#xA;A Contributor may choose to distribute the Program in object code form under its own license agreement, provided that:&#xA;&#xA;    a) it complies with the terms and conditions of this Agreement; and&#xA;&#xA;    b) its license agreement:&#xA;&#xA;    i) effectively disclaims on behalf of all Contributors all warranties and conditions, express and implied, including warranties or conditions of title and non-infringement, and implied warranties or conditions of merchantability and fitness for a particular purpose;&#xA;&#xA;    ii) effectively excludes on behalf of all Contributors all liability for damages, including direct, indirect, special, incidental and consequential damages, such as lost profits;&#xA;&#xA;    iii) states that any provisions which differ from this Agreement are offered by that Contributor alone and not by any other party; and&#xA;&#xA;    iv) states that source code for the Program is available from such Contributor, and informs licensees how to obtain it in a reasonable manner on or through a medium customarily used for software exchange.&#xA;&#xA;When the Program is made available in source code form:&#xA;&#xA;    a) it must be made available under this Agreement; and&#xA;&#xA;    b) a copy of this Agreement must be included with each copy of the Program.&#xA;&#xA;Contributors may not remove or alter any copyright notices contained within the Program.&#xA;&#xA;Each Contributor must identify itself as the originator of its Contribution, if any, in a manner that reasonably allows subsequent Recipients to identify the originator of the Contribution.&#xA;&#xA;4. COMMERCIAL DISTRIBUTION&#xA;&#xA;Commercial distributors of software may accept certain responsibilities with respect to end users, business partners and the like. While this license is intended to facilitate the commercial use of the Program, the Contributor who includes the Program in a commercial product offering should do so in a manner which does not create potential liability for other Contributors. Therefore, if a Contributor includes the Program in a commercial product offering, such Contributor (&amp;quot;Commercial Contributor&amp;quot;) hereby agrees to defend and indemnify every other Contributor (&amp;quot;Indemnified Contributor&amp;quot;) against any losses, damages and costs (collectively &amp;quot;Losses&amp;quot;) arising from claims, lawsuits and other legal actions brought by a third party against the Indemnified Contributor to the extent caused by the acts or omissions of such Commercial Contributor in connection with its distribution of the Program in a commercial product offering. The obligations in this section do not apply to any claims or Losses relating to any actual or alleged intellectual property infringement. In order to qualify, an Indemnified Contributor must: a) promptly notify the Commercial Contributor in writing of such claim, and b) allow the Commercial Contributor to control, and cooperate with the Commercial Contributor in, the defense and any related settlement negotiations. The Indemnified Contributor may participate in any such claim at its own expense.&#xA;&#xA;For example, a Contributor might include the Program in a commercial product offering, Product X. That Contributor is then a Commercial Contributor. If that Commercial Contributor then makes performance claims, or offers warranties related to Product X, those performance claims and warranties are such Commercial Contributor’s responsibility alone. Under this section, the Commercial Contributor would have to defend claims against the other Contributors related to those performance claims and warranties, and if a court requires any other Contributor to pay any damages as a result, the Commercial Contributor must pay those damages.&#xA;&#xA;5. NO WARRANTY&#xA;&#xA;EXCEPT AS EXPRESSLY SET FORTH IN THIS AGREEMENT, THE PROGRAM IS PROVIDED ON AN &amp;quot;AS IS&amp;quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED INCLUDING, WITHOUT LIMITATION, ANY WARRANTIES OR CONDITIONS OF TITLE, NON-INFRINGEMENT, MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. Each Recipient is solely responsible for determining the appropriateness of using and distributing the Program and assumes all risks associated with its exercise of rights under this Agreement , including but not limited to the risks and costs of program errors, compliance with applicable laws, damage to or loss of data, programs or equipment, and unavailability or interruption of operations.&#xA;&#xA;6. DISCLAIMER OF LIABILITY&#xA;&#xA;EXCEPT AS EXPRESSLY SET FORTH IN THIS AGREEMENT, NEITHER RECIPIENT NOR ANY CONTRIBUTORS SHALL HAVE ANY LIABILITY FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING WITHOUT LIMITATION LOST PROFITS), HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OR DISTRIBUTION OF THE PROGRAM OR THE EXERCISE OF ANY RIGHTS GRANTED HEREUNDER, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.&#xA;&#xA;7. GENERAL&#xA;&#xA;If any provision of this Agreement is invalid or unenforceable under applicable law, it shall not affect the validity or enforceability of the remainder of the terms of this Agreement, and without further action by the parties hereto, such provision shall be reformed to the minimum extent necessary to make such provision valid and enforceable.&#xA;&#xA;If Recipient institutes patent litigation against any entity (including a cross-claim or counterclaim in a lawsuit) alleging that the Program itself (excluding combinations of the Program with other software or hardware) infringes such Recipient’s patent(s), then such Recipient’s rights granted under Section 2(b) shall terminate as of the date such litigation is filed.&#xA;&#xA;All Recipient’s rights under this Agreement shall terminate if it fails to comply with any of the material terms or conditions of this Agreement and does not cure such failure in a reasonable period of time after becoming aware of such noncompliance. If all Recipient’s rights under this Agreement terminate, Recipient agrees to cease use and distribution of the Program as soon as reasonably practicable. However, Recipient’s obligations under this Agreement and any licenses granted by Recipient relating to the Program shall continue and survive.&#xA;&#xA;Everyone is permitted to copy and distribute copies of this Agreement, but in order to avoid inconsistency the Agreement is copyrighted and may only be modified in the following manner. The Agreement Steward reserves the right to publish new versions (including revisions) of this Agreement from time to time. No one other than the Agreement Steward has the right to modify this Agreement. The Eclipse Foundation is the initial Agreement Steward. The Eclipse Foundation may assign the responsibility to serve as the Agreement Steward to a suitable separate entity. Each new version of the Agreement will be given a distinguishing version number. The Program (including Contributions) may always be distributed subject to the version of the Agreement under which it was received. In addition, after a new version of the Agreement is published, Contributor may elect to distribute the Program (including its Contributions) under the new version. Except as expressly stated in Sections 2(a) and 2(b) above, Recipient receives no rights or licenses to the intellectual property of any Contributor under this Agreement, whether expressly, by implication, estoppel or otherwise. All rights in the Program not expressly granted under this Agreement are reserved.&#xA;&#xA;This Agreement is governed by the laws of the State of New York and the intellectual property laws of the United States of America. No party to this Agreement will bring a legal action under this Agreement more than one year after the cause of action arose. Each party waives its rights to a jury trial in any resulting litigation.
+        </license>
+      </licenses>
+      <copyright>
+        © Fabio Zadrozny.
+      </copyright>
+    </unit>
+    <unit id='org.python.pydev.shared_core' version='7.0.3.201811082356'>
+      <update id='org.python.pydev.shared_core' range='[0.0.0,7.0.3.201811082356)' severity='0'/>
+      <properties size='5'>
+        <property name='org.eclipse.equinox.p2.name' value='Shared Core Plug-in'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Brainwy Software Ltda'/>
+        <property name='maven-groupId' value='org.python.pydev'/>
+        <property name='maven-artifactId' value='org.python.pydev.shared_core'/>
+        <property name='maven-version' value='7.0.3-SNAPSHOT'/>
+      </properties>
+      <provides size='126'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.python.pydev.shared_core' version='7.0.3.201811082356'/>
+        <provided namespace='osgi.bundle' name='org.python.pydev.shared_core' version='7.0.3.201811082356'/>
+        <provided namespace='java.package' name='org.apache.lucene' version='0.0.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.analysis' version='0.0.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.analysis.ar' version='0.0.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.analysis.bg' version='0.0.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.analysis.br' version='0.0.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.analysis.ca' version='0.0.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.analysis.charfilter' version='0.0.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.analysis.cjk' version='0.0.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.analysis.ckb' version='0.0.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.analysis.commongrams' version='0.0.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.analysis.compound' version='0.0.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.analysis.compound.hyphenation' version='0.0.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.analysis.core' version='0.0.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.analysis.custom' version='0.0.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.analysis.cz' version='0.0.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.analysis.da' version='0.0.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.analysis.de' version='0.0.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.analysis.el' version='0.0.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.analysis.en' version='0.0.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.analysis.es' version='0.0.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.analysis.eu' version='0.0.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.analysis.fa' version='0.0.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.analysis.fi' version='0.0.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.analysis.fr' version='0.0.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.analysis.ga' version='0.0.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.analysis.gl' version='0.0.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.analysis.hi' version='0.0.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.analysis.hu' version='0.0.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.analysis.hunspell' version='0.0.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.analysis.hy' version='0.0.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.analysis.id' version='0.0.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.analysis.in' version='0.0.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.analysis.it' version='0.0.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.analysis.lt' version='0.0.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.analysis.lv' version='0.0.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.analysis.miscellaneous' version='0.0.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.analysis.ngram' version='0.0.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.analysis.nl' version='0.0.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.analysis.no' version='0.0.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.analysis.path' version='0.0.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.analysis.pattern' version='0.0.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.analysis.payloads' version='0.0.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.analysis.pt' version='0.0.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.analysis.query' version='0.0.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.analysis.reverse' version='0.0.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.analysis.ro' version='0.0.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.analysis.ru' version='0.0.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.analysis.shingle' version='0.0.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.analysis.sinks' version='0.0.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.analysis.snowball' version='0.0.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.analysis.sr' version='0.0.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.analysis.standard' version='0.0.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.analysis.sv' version='0.0.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.analysis.synonym' version='0.0.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.analysis.th' version='0.0.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.analysis.tokenattributes' version='0.0.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.analysis.tr' version='0.0.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.analysis.util' version='0.0.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.analysis.wikipedia' version='0.0.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.codecs' version='0.0.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.codecs.blocktree' version='0.0.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.codecs.compressing' version='0.0.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.codecs.lucene50' version='0.0.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.codecs.lucene53' version='0.0.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.codecs.lucene54' version='0.0.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.codecs.lucene60' version='0.0.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.codecs.perfield' version='0.0.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.collation' version='0.0.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.collation.tokenattributes' version='0.0.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.document' version='0.0.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.geo' version='0.0.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.index' version='0.0.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.search' version='0.0.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.search.similarities' version='0.0.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.search.spans' version='0.0.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.store' version='0.0.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.util' version='0.0.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.util.automaton' version='0.0.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.util.bkd' version='0.0.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.util.fst' version='0.0.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.util.mutable' version='0.0.0'/>
+        <provided namespace='java.package' name='org.apache.lucene.util.packed' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.shared_core' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.shared_core.actions' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.shared_core.auto_edit' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.shared_core.bundle' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.shared_core.cache' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.shared_core.callbacks' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.shared_core.code_completion' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.shared_core.document' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.shared_core.editor' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.shared_core.global_feedback' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.shared_core.image' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.shared_core.index' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.shared_core.io' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.shared_core.jython' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.shared_core.locator' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.shared_core.log' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.shared_core.markers' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.shared_core.model' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.shared_core.net' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.shared_core.out_of_memory' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.shared_core.parsing' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.shared_core.partitioner' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.shared_core.path_watch' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.shared_core.preferences' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.shared_core.process' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.shared_core.progress' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.shared_core.resource_stubs' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.shared_core.resources' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.shared_core.string' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.shared_core.structure' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.shared_core.testutils' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.shared_core.threaded_objects_pool' version='0.0.0'/>
+        <provided namespace='java.package' name='org.python.pydev.shared_core.utils' version='0.0.0'/>
+        <provided namespace='java.package' name='org.yaml.snakeyaml' version='0.0.0'/>
+        <provided namespace='java.package' name='org.yaml.snakeyaml.error' version='0.0.0'/>
+        <provided namespace='java.package' name='org.yaml.snakeyaml.events' version='0.0.0'/>
+        <provided namespace='java.package' name='org.yaml.snakeyaml.nodes' version='0.0.0'/>
+        <provided namespace='java.package' name='org.yaml.snakeyaml.parser' version='0.0.0'/>
+        <provided namespace='java.package' name='org.yaml.snakeyaml.reader' version='0.0.0'/>
+        <provided namespace='java.package' name='org.yaml.snakeyaml.scanner' version='0.0.0'/>
+        <provided namespace='java.package' name='org.yaml.snakeyaml.tokens' version='0.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='5'>
+        <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.junit' range='4.0.0' optional='true' greedy='false'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.resources' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.filebuffers' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.text' range='0.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.python.pydev.shared_core' version='7.0.3.201811082356'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='2'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.python.pydev.shared_core;singleton:=true&#xA;Bundle-Version: 7.0.3.201811082356
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+  </units>
+</repository>
